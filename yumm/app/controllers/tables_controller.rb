@@ -11,6 +11,9 @@ class TablesController < ApplicationController
     if @table.save
       flash[:notice] = "Table has been seated!"
       redirect_to @table
+    else
+      flash[:alert] = "Table has not been seated."
+      render "new"
     end
   end
 
