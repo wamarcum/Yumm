@@ -1,3 +1,3 @@
 class Table < ActiveRecord::Base
-  validates :number, presence: true
+  validates :number, :guests, presence: true
 end

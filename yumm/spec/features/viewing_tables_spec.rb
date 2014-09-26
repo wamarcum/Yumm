@@ -9,6 +9,12 @@ feature "Viewing Tables" do
     expect(page).to have_title(title)
   end
 
+  scenario "shows the Guest count" do
+    visit table_url(table)
+
+    expect(page).to have_content("Guests: #{table.guests}")
+  end
+
   scenario "Listing all Tables" do
     visit '/'
     click_link table.number
