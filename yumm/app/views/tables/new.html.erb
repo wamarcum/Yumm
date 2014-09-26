@@ -1,0 +1,14 @@
+<h2>New Table</h2>
+
+<%= form_for(@table) do |f| %>
+  <p>
+    <%= f.label :number %>
+    <%= f.text_field :number %>
+  </p>
+
+  <p>
+    <%= f.label :guests %>
+    <%= f.text_field :guests %>
+  </p>
+  <%= f.submit %>
+<% end %>
