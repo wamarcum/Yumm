@@ -8,5 +8,11 @@ feature "Viewing Tables" do
     expect(page.current_url).to eql(table_url(table))
     expect(page).to have_title(title)
   end
+
+  scenario "Listing all Tables" do
+    visit '/'
+    click_link table.number
+    expect(page.current_url).to eql(table_url(table))
+  end
 end
 
