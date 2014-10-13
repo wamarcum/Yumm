@@ -12,4 +12,12 @@
 
 <h3>Tickets</h3>
 <%= link_to "New Ticket", new_table_ticket_path(@table) %>
+<ul id='tickets'>
+  <% @table.tickets.each do |ticket| %>
+    <li>
+      #<%= ticket.id %> - 
+      <%= link_to ticket.title, [@table, ticket] %>
+    </li>
+  <% end %>
+</ul>
 
