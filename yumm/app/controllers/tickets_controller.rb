@@ -32,6 +32,12 @@ class TicketsController < ApplicationController
     end
   end
 
+  def destroy
+    @ticket.destroy
+    flash[:notice] = "Ticket has been destroyed."
+    redirect_to @table
+  end
+
   private
   def set_table
     @table = Table.find(params[:table_id])
