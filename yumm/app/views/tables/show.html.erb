@@ -2,7 +2,6 @@
 <h2>Table Number: <%= @table.number %></h2>
 <h4>Guests: <%= @table.guests %></h4>
 
-
 <%= link_to "Edit Table", edit_table_path(@table) %>
 <%= link_to "Delete Table", table_path(@table),
                             method: :delete,
@@ -10,4 +9,7 @@
                                     "Are you sure you want to delete this Table?"
                                   }
 %>
+
+<h3>Tickets</h3>
+<%= link_to "New Ticket", new_table_ticket_path(@table) %>
 
