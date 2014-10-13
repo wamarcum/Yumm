@@ -38,6 +38,13 @@ class TablesController < ApplicationController
 
   end
 
+  def destroy
+    @table = Table.find(params[:id])
+    @table.destroy
+    flash[:notice] = "Table has been destroyed."
+    redirect_to tables_path
+  end
+
   private
   def table_params
     params.require(:table).permit(:number, :guests)
