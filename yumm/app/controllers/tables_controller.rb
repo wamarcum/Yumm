@@ -1,4 +1,5 @@
 class TablesController < ApplicationController
+  before_action :set_table, only: [:show, :edit, :update, :destroy]
   def index
     @tables = Table.all
   end
@@ -49,4 +50,11 @@ class TablesController < ApplicationController
   def table_params
     params.require(:table).permit(:number, :guests)
   end
+  def set_table
+    @table = Table.find(params[:id])
+  rescue ActiveRecord::RecordNotFound
+    flash[:alert] = "The Table you were looking for could not be found."
+    redirect_to tables_path
+  end
 end
+
