@@ -1,5 +1,5 @@
 class AddManagerToEmployees < ActiveRecord::Migration
   def change
-    add_column :employees, :manager, :boolean, default: false
+    add_column :employees, :manager, :boolean
   end
 end
