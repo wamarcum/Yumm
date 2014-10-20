@@ -1,3 +1,3 @@
 class Employee < ActiveRecord::Base
-  has_secure_password
+  validates :name, :pin, presence: true
 end
