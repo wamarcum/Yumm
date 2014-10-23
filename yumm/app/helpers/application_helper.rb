@@ -8,4 +8,8 @@ module ApplicationHelper
     end
   end
 
+  def managers_only(&blk)
+    blk.call if current_employee.try(:manager?)
+  end
+
 end

@@ -1,0 +1,8 @@
+<h1>Manager::Employees#index</h1>
+
+<%= link_to "New Employee", new_manager_employee_path %>
+<ul id='employees'>
+  <% @employees.each do |employee| %>
+    <li><%= link_to employee.name, [:manager, employee] %></li>
+  <% end %>
+</ul>

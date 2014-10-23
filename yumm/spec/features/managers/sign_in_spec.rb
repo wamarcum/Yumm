@@ -8,7 +8,7 @@ feature "Sigining In" do
     fill_in 'Pin', with: manager.pin
     click_button 'Sign in'
     expect(page).to have_content('Signed in successfully.')
-    #expect(page).to have_content("Manager Panel")
+    expect(page).to have_link("Manager Panel")
   end
 end
 

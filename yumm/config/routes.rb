@@ -1,21 +1,19 @@
 Rails.application.routes.draw do
-
-  get 'employees/new'
-
-  get 'employees/create'
-
-  get 'employees/show'
+  root "tables#index"
 
   post "/signin", to: "sessions#create"
   get "/signin", to: "sessions#new"
 
-  root "tables#index"
+  namespace :manager do
+    root to: "base#index"
+    resources :employees
+  end
+
+  resources :employees
 
   resources :tables do
     resources :tickets
   end
-
-  resources :employees
 
   #TODO
   #namespace :manager do

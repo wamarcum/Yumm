@@ -14,9 +14,16 @@
 </head>
 <body>
 <nav>
-  <%= link_to "Sign in", signin_path %>
-  <%= link_to "Sign up", new_employee_path %>
+  <% if current_employee %>
+    Logged in as: <%= current_employee.name %><br>
+    <% managers_only do %>
+      <%= link_to "Manager Panel", manager_root_path %>
+    <% end %>
+  <% else %>
+      <%= link_to "Sign in", signin_path %>
+  <% end %>
 </nav>
+
 
   <% flash.each do |key, val| %>
     <div class='flash' id='<%= key %>'>
