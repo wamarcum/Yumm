@@ -14,6 +14,7 @@ class EmployeesController < ApplicationController
   end
 
   def show
+    @employee = Employee.find(employee_params)
   end
 
   private
