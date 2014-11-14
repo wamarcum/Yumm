@@ -3,6 +3,7 @@ Rails.application.routes.draw do
 
   post "/signin", to: "sessions#create"
   get "/signin", to: "sessions#new"
+  delete "/signout", to: "sessions#destroy"
 
   namespace :manager do
     root to: "base#index"

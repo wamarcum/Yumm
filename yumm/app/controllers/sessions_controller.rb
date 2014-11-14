@@ -12,5 +12,11 @@ class SessionsController < ApplicationController
     end
   end
 
+  def destroy
+    session.delete(:employee_id)
+    flash[:notice] = "Signed out successfully."
+    redirect_to root_url
+  end
+
 end
 

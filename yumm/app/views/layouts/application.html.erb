@@ -16,6 +16,7 @@
 <nav>
   <% if current_employee %>
     Logged in as: <%= current_employee.name %><br>
+    <%= link_to "Sign out", signout_path, method: :delete %>
     <% managers_only do %>
       <%= link_to "Manager Panel", manager_root_path %>
     <% end %>
