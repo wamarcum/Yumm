@@ -3,5 +3,9 @@
 <%# line below shortcut for "edit_table_ticket_path(@table, @ticket) %>
 <%= link_to "Edit Ticket", [:edit, @table, @ticket] %>
 <%= link_to "Delete Ticket", [@table, @ticket], method: :delete,
-                              data: { confirm: "Are you sure to want to delete this Ticket?" } %>
+  data: { confirm: "Are you sure to want to delete this Ticket?" } %>
 </div>
+
+
+
+<%= render "items/form" %>

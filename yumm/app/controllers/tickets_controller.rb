@@ -17,6 +17,7 @@ class TicketsController < ApplicationController
   end
 
   def show
+    @item = @ticket.items.build
   end
 
   def edit

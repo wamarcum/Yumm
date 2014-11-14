@@ -16,6 +16,10 @@ Rails.application.routes.draw do
     resources :tickets
   end
 
+  resources :tickets do
+    resources :items
+  end
+
   #TODO
   #namespace :manager do
   #  resources :tables, :tickets, :employees

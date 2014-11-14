@@ -1,6 +1,6 @@
 FactoryGirl.define do
     factory :ticket do
-      title "First Ticket"
+      title "Ticket1"
     end
   end
 
