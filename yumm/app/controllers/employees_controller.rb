@@ -13,10 +13,6 @@ class EmployeesController < ApplicationController
     end
   end
 
-  def show
-    @employee = Employee.find(employee_params)
-  end
-
   private
   def employee_params
     params.require(:employee).permit(:name, :pin)
