@@ -15,6 +15,8 @@ class ApplicationController < ActionController::Base
 
   def current_employee
     @current_employee ||= Employee.find(session[:employee_id]) if session[:employee_id]
+  rescue ActiveRecord::RecordNotFound
+    flash[:alert] = "Invalid session ID."
   end
   helper_method :current_employee
 

@@ -6,7 +6,7 @@ class TicketsController < ApplicationController
   end
 
   def create
-    @ticket = @table.tickets.build(ticket_params)
+    @ticket = @table.tickets.build(ticket_params) if ticket_params.any?
     if @ticket.save
       flash[:notice] = "Ticket has been created."
       redirect_to [@table, @ticket]
@@ -47,7 +47,7 @@ class TicketsController < ApplicationController
     @ticket = @table.tickets.find(params[:id])
   end
   def ticket_params
-    params.require(:ticket).permit(:title)
+    params.require(:ticket).permit(:title).reject(&:empty?)
   end
 end
 

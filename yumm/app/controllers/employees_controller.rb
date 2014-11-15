@@ -4,7 +4,7 @@ class EmployeesController < ApplicationController
   end
 
   def create
-    @employee = Employee.new(employee_params)
+    @employee = Employee.new(employee_params) if employee_params.any?
     if @employee.save
       flash[:notice] = "You have signed up successfully."
       redirect_to tables_path
@@ -15,7 +15,7 @@ class EmployeesController < ApplicationController
 
   private
   def employee_params
-    params.require(:employee).permit(:name, :pin)
+    params.require(:employee).permit(:name, :pin).reject(&:empty?)
   end
 end
 

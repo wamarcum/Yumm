@@ -9,7 +9,7 @@ class TablesController < ApplicationController
   end
 
   def create
-    @table = Table.new(table_params)
+    @table = Table.new(table_params) if table_params.any?
     if @table.save
       flash[:notice] = "Table has been seated!"
       redirect_to @table
@@ -48,7 +48,7 @@ class TablesController < ApplicationController
 
   private
   def table_params
-    params.require(:table).permit(:number, :guests)
+    params.require(:table).permit(:number, :guests).reject(&:empty?)
   end
   def set_table
     @table = Table.find(params[:id])
