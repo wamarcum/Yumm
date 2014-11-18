@@ -1,3 +1,14 @@
 <h2>Manager Panel - Inventory</h2>
 
 <%= link_to "Add Item", new_manager_item_path %>
+
+<div id='categories'>
+  <% Category.all.each do |category|%>
+    <ul id="<%= category.name %>">
+      <h3><%= category.name.capitalize.pluralize %></h3>
+      <% category.items.each do |item| %>
+        <li><%= item.name %></li>
+      <% end %>
+    </ul>
+  <% end %>
+</div>

@@ -2,6 +2,7 @@ require 'spec_helper'
 
 feature "Items" do
   let!(:manager) { FactoryGirl.create(:manager) }
+  let!(:category) { FactoryGirl.create(:category) }
   before do
     sign_in_as!(manager)
     visit '/'
@@ -11,11 +12,11 @@ feature "Items" do
 
   scenario "adding an Item to inventory" do
     click_link "Add Item"
+    select "Beverage", from: "Category"
     fill_in "Name", with: "Pepsi"
     select "5", from: "Quantity"
-    select "Beverage", from: "Category"
     click_button "Add Item"
-    expect(page).to have_content("Item has been added.")
+    expect(page).to have_content("Item has been created.")
   end
 end
 

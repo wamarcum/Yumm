@@ -13,3 +13,8 @@ Employee.create(name: "joe", pin: "22", manager: false)
   Table.create(number: "#{t}", guests: "#{t+rand(4)}")
   Ticket.create(title: "#{5.times.map { (97+rand(25)).chr }.join}", table_id: t)
 end
+
+%w(beverage salad pizza).each do |c|
+  Category.create(name: "#{c}")
+end
+

@@ -10,6 +10,12 @@
       </ul>
     </div>
   <% end %>
+
+  <p>
+    <%= f.label :category_id %>
+    <%= f.select :category_id, Category.all.map { |c| [c.name.capitalize, c.id] }, prompt: "Select One" %>
+  </p>
+
   <p>
     <%= f.label :name %>
     <%= f.text_field :name %>
@@ -24,5 +30,6 @@
     <%= f.label :comment %>
     <%= f.text_field :comment %>
   </p>
+
   <%= f.submit "Add Item" %>
 <% end %>
