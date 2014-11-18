@@ -11,7 +11,7 @@ class Manager::ItemsController < ApplicationController
     @item = Item.new(params)
     if @item.save
       flash[:notice] = "Item has been created."
-      redirect_to manager_inventory_path
+      redirect_to manager_items_path
     else
       flash[:alert] = "Item has not been created."
       render :new

@@ -12,7 +12,7 @@ feature "Manager Panel" do
   it "displays action items" do
     expect(page).to have_link("Tables")
     expect(page).to have_link("Employees")
-    expect(page).to have_link("Inventory")
+    expect(page).to have_link("Items")
   end
 
 end

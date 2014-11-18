@@ -22,6 +22,11 @@
   </p>
 
   <p>
+    <%= f.label :cost %>
+    <%= f.number_field :cost %>
+  </p>
+
+  <p>
     <%= f.label :quantity %>
     <%= f.select :quantity, options_for_select((1..10).to_a) %>
   </p>

@@ -7,13 +7,14 @@ feature "Items" do
     sign_in_as!(manager)
     visit '/'
     click_link 'Manager Panel'
-    click_link 'Inventory'
+    click_link 'Items'
   end
 
-  scenario "adding an Item to inventory" do
+  scenario "adding an Item" do
     click_link "Add Item"
     select "Beverage", from: "Category"
     fill_in "Name", with: "Pepsi"
+    fill_in "Cost", with: "1.00"
     select "5", from: "Quantity"
     click_button "Add Item"
     expect(page).to have_content("Item has been created.")
