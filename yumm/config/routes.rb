@@ -1,4 +1,12 @@
 Rails.application.routes.draw do
+  namespace :manager do
+  get 'items/index'
+  end
+
+  namespace :admin do
+  get 'items/index'
+  end
+
   root "tables#index"
 
   post "/signin", to: "sessions#create"
@@ -9,6 +17,7 @@ Rails.application.routes.draw do
     root to: "base#index"
     get "/inventory", to: "inventory#index"
     resources :employees
+    resources :items
   end
 
   resources :employees
