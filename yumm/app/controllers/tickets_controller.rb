@@ -47,7 +47,7 @@ class TicketsController < ApplicationController
     @ticket = @table.tickets.find(params[:id])
   end
   def ticket_params
-    params.require(:ticket).permit(:title).reject(&:empty?)
+    params.require(:ticket).permit(:title)
   end
 end
 

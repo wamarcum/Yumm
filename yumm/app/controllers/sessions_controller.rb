@@ -1,6 +1,7 @@
 class SessionsController < ApplicationController
 
   def create
+    session.clear
     employee = Employee.where(pin: params[:signin][:pin]).first
     if employee
       session[:employee_id] = employee.id

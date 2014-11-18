@@ -2,7 +2,7 @@ class ItemsController < ApplicationController
   before_action :set_ticket
 
   def create
-    @item = @ticket.items.build(item_params) if item_params.any? j
+    @item = @ticket.items.build(item_params) if item_params.any?
     if @item.save
       flash[:notice] = "Item has been added."
       redirect_to [@ticket.table, @ticket]
@@ -18,6 +18,6 @@ class ItemsController < ApplicationController
   end
 
   def item_params
-    params.require(:item).permit(:name, :quantity, :comment).reject(&:empty?)
+    params.require(:item).permit(:name, :quantity, :comment)
   end
 end

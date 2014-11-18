@@ -1,10 +1,11 @@
 require 'spec_helper'
 
 feature 'Creating Tickets' do
+  let!(:employee) { FactoryGirl.create(:employee) }
+  let!(:table) { FactoryGirl.create(:table) }
   before do
-    FactoryGirl.create(:table, number: "9")
-    visit '/'
-    click_link '9'
+    sign_in_as!(employee)
+    click_link table.number
     click_link 'New Ticket'
   end
   
