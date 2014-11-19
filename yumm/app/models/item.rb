@@ -3,6 +3,7 @@ class Item < ActiveRecord::Base
   belongs_to :ticket
 
   validates :name, presence: true
+  validates :cost, presence: true
   validates :quantity, presence: true
   validates :category_id, presence: true
 

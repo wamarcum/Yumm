@@ -11,7 +11,8 @@ Employee.create(name: "joe", pin: "22", manager: false)
 
 (1..8).each do |t|
   Table.create(number: "#{t}", guests: "#{t+rand(4)}")
-  Ticket.create(title: "#{5.times.map { (97+rand(25)).chr }.join}", table_id: t)
+  #Ticket.create(title: "#{5.times.map { (97+rand(25)).chr }.join}", table_id: 
+  #t)
 end
 
 %w(beverage salad pizza).each do |c|

@@ -17,8 +17,7 @@
 <ul id='tickets'>
   <% @table.tickets.each do |ticket| %>
     <li>
-      #<%= ticket.id %> - 
-      <%= link_to ticket.title, [@table, ticket] %>
+      <%= link_to ticket.id, [@table, ticket] %>
     </li>
   <% end %>
 </ul>

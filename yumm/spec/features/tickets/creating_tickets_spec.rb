@@ -10,7 +10,6 @@ feature 'Creating Tickets' do
   end
   
   scenario "Creating a Ticket" do
-    fill_in "Title", with: "First Ticket"
     click_button "Create Ticket"
     expect(page).to have_content("Ticket has been created.")
   end
