@@ -1,0 +1,23 @@
+<div id='ticket'>
+<h2>Ticket #<%= @ticket.id %></h2>
+<%# line below shortcut for "edit_table_ticket_path(@table, @ticket) %>
+<%= link_to "Edit Ticket", [:edit, @table, @ticket] %>
+<%= link_to "Delete Ticket", [@table, @ticket], method: :delete,
+  data: { confirm: "Are you sure to want to delete this Ticket?" } %>
+</div>
+
+
+<h3>Items</h3>
+<ul id='items'>
+   <% @ticket.items.each do |item| %>
+     <li>
+       <%= item.quantity %> - <%= item.name %>
+       <ul>
+         <li><%= item.comment %></li>
+       </ul>
+     </li>
+   <% end %>
+ </ul>
+
+
+<%= render "items/form" %>
