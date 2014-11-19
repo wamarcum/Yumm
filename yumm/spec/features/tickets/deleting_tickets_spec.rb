@@ -7,7 +7,7 @@ feature 'Deleting tickets' do
   before do
     visit '/'
     click_link table.number
-    click_link ticket.title
+    click_link ticket.id
   end
 
   scenario "Deleting a ticket" do

@@ -12,7 +12,7 @@ feature "Items" do
   end
 
   it "displays each Category" do
-    expect(page).to have_content("Beverages")
+    expect(page).to have_content(category.name)
   end
 end
 
