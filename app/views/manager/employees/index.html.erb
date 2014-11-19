@@ -3,6 +3,8 @@
 <%= link_to "New Employee", new_manager_employee_path %>
 <ul id='employees'>
   <% @employees.each do |employee| %>
-    <li><%= link_to employee.name, [:manager, employee] %></li>
+	 <% unless employee.manager %>
+    	<li><%= link_to employee.name, [:manager, employee] %></li>
+	 <% end %>
   <% end %>
 </ul>

@@ -1281,3 +1281,3993 @@ Processing by Manager::ItemsController#index as HTML
   Rendered manager/items/index.html.erb within layouts/application (3.8ms)
   [1m[35mEmployee Load (0.1ms)[0m  SELECT  "employees".* FROM "employees"  WHERE "employees"."id" = ? LIMIT 1  [["id", 2]]
 Completed 200 OK in 92ms (Views: 90.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-19 15:04:05 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by TablesController#index as HTML
+  [1m[35mTable Load (0.1ms)[0m  SELECT "tables".* FROM "tables"
+  Rendered tables/index.html.erb within layouts/application (1.6ms)
+  [1m[36mEmployee Load (0.1ms)[0m  [1mSELECT  "employees".* FROM "employees"  WHERE "employees"."id" = ? LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 191ms (Views: 178.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/employees.css?body=1" for 127.0.0.1 at 2014-11-19 15:04:05 -0600
+
+
+Started GET "/assets/items.css?body=1" for 127.0.0.1 at 2014-11-19 15:04:05 -0600
+
+
+Started GET "/assets/manager/items.css?body=1" for 127.0.0.1 at 2014-11-19 15:04:05 -0600
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-11-19 15:04:05 -0600
+
+
+Started GET "/assets/manager/employees.css?body=1" for 127.0.0.1 at 2014-11-19 15:04:05 -0600
+
+
+Started GET "/assets/tables.css?body=1" for 127.0.0.1 at 2014-11-19 15:04:05 -0600
+
+
+Started GET "/assets/tickets.css?body=1" for 127.0.0.1 at 2014-11-19 15:04:05 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-19 15:04:05 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-19 15:04:05 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-19 15:04:05 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-19 15:04:05 -0600
+
+
+Started GET "/assets/employees.js?body=1" for 127.0.0.1 at 2014-11-19 15:04:05 -0600
+
+
+Started GET "/assets/items.js?body=1" for 127.0.0.1 at 2014-11-19 15:04:05 -0600
+
+
+Started GET "/assets/manager/employees.js?body=1" for 127.0.0.1 at 2014-11-19 15:04:05 -0600
+
+
+Started GET "/assets/soon_to_be_sess.js?body=1" for 127.0.0.1 at 2014-11-19 15:04:05 -0600
+
+
+Started GET "/assets/manager/items.js?body=1" for 127.0.0.1 at 2014-11-19 15:04:05 -0600
+
+
+Started GET "/assets/tables.js?body=1" for 127.0.0.1 at 2014-11-19 15:04:05 -0600
+
+
+Started GET "/assets/tickets.js?body=1" for 127.0.0.1 at 2014-11-19 15:04:05 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-19 15:04:05 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-19 15:04:05 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-19 15:04:05 -0600
+
+
+Started GET "/assets/items.js?body=1" for 127.0.0.1 at 2014-11-19 15:04:05 -0600
+
+
+Started DELETE "/signout" for 127.0.0.1 at 2014-11-19 15:04:09 -0600
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"FSZktxOEGpcfBKoIr8N44zpEJ1SCjj3FikqcFihdkHA="}
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-19 15:04:09 -0600
+Processing by TablesController#index as HTML
+  [1m[35mTable Load (0.1ms)[0m  SELECT "tables".* FROM "tables"
+  Rendered tables/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 92ms (Views: 91.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/items.css?body=1" for 127.0.0.1 at 2014-11-19 15:04:09 -0600
+
+
+Started GET "/assets/employees.css?body=1" for 127.0.0.1 at 2014-11-19 15:04:09 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-19 15:04:09 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-19 15:04:09 -0600
+
+
+Started GET "/assets/items.js?body=1" for 127.0.0.1 at 2014-11-19 15:04:09 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-19 15:04:09 -0600
+
+
+Started GET "/assets/manager/employees.css?body=1" for 127.0.0.1 at 2014-11-19 15:04:09 -0600
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-11-19 15:04:09 -0600
+
+
+Started GET "/assets/manager/items.css?body=1" for 127.0.0.1 at 2014-11-19 15:04:09 -0600
+
+
+Started GET "/assets/tables.css?body=1" for 127.0.0.1 at 2014-11-19 15:04:09 -0600
+
+
+Started GET "/assets/tickets.css?body=1" for 127.0.0.1 at 2014-11-19 15:04:09 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-19 15:04:09 -0600
+
+
+Started GET "/assets/employees.js?body=1" for 127.0.0.1 at 2014-11-19 15:04:09 -0600
+
+
+Started GET "/assets/manager/employees.js?body=1" for 127.0.0.1 at 2014-11-19 15:04:09 -0600
+
+
+Started GET "/assets/manager/items.js?body=1" for 127.0.0.1 at 2014-11-19 15:04:09 -0600
+
+
+Started GET "/assets/soon_to_be_sess.js?body=1" for 127.0.0.1 at 2014-11-19 15:04:09 -0600
+
+
+Started GET "/assets/tables.js?body=1" for 127.0.0.1 at 2014-11-19 15:04:09 -0600
+
+
+Started GET "/assets/tickets.js?body=1" for 127.0.0.1 at 2014-11-19 15:04:09 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-19 15:04:09 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-19 15:04:09 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-19 15:04:09 -0600
+
+
+Started GET "/signin" for 127.0.0.1 at 2014-11-19 15:04:10 -0600
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (12.2ms)
+Completed 200 OK in 98ms (Views: 97.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/signin" for 127.0.0.1 at 2014-11-19 15:04:13 -0600
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Yr8yx8mrptCX5QKsD0U4ewrivcP3U0Q6/HOGek3RzTE=", "signin"=>{"pin"=>"00"}, "commit"=>"Sign in"}
+  [1m[36mEmployee Load (0.2ms)[0m  [1mSELECT  "employees".* FROM "employees"  WHERE "employees"."pin" = '00'  ORDER BY "employees"."id" ASC LIMIT 1[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 4ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-19 15:04:13 -0600
+Processing by TablesController#index as HTML
+  [1m[35mTable Load (0.1ms)[0m  SELECT "tables".* FROM "tables"
+  Rendered tables/index.html.erb within layouts/application (0.4ms)
+  [1m[36mEmployee Load (0.1ms)[0m  [1mSELECT  "employees".* FROM "employees"  WHERE "employees"."id" = ? LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 93ms (Views: 92.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-19 15:04:13 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-19 15:04:13 -0600
+
+
+Started GET "/assets/manager/employees.css?body=1" for 127.0.0.1 at 2014-11-19 15:04:13 -0600
+
+
+Started GET "/assets/employees.css?body=1" for 127.0.0.1 at 2014-11-19 15:04:13 -0600
+
+
+Started GET "/assets/items.css?body=1" for 127.0.0.1 at 2014-11-19 15:04:13 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-19 15:04:13 -0600
+
+
+Started GET "/assets/manager/items.css?body=1" for 127.0.0.1 at 2014-11-19 15:04:13 -0600
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-11-19 15:04:13 -0600
+
+
+Started GET "/assets/tables.css?body=1" for 127.0.0.1 at 2014-11-19 15:04:13 -0600
+
+
+Started GET "/assets/tickets.css?body=1" for 127.0.0.1 at 2014-11-19 15:04:13 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-19 15:04:13 -0600
+
+
+Started GET "/assets/employees.js?body=1" for 127.0.0.1 at 2014-11-19 15:04:13 -0600
+
+
+Started GET "/assets/manager/employees.js?body=1" for 127.0.0.1 at 2014-11-19 15:04:13 -0600
+
+
+Started GET "/assets/manager/items.js?body=1" for 127.0.0.1 at 2014-11-19 15:04:13 -0600
+
+
+Started GET "/assets/soon_to_be_sess.js?body=1" for 127.0.0.1 at 2014-11-19 15:04:13 -0600
+
+
+Started GET "/assets/tables.js?body=1" for 127.0.0.1 at 2014-11-19 15:04:13 -0600
+
+
+Started GET "/assets/tickets.js?body=1" for 127.0.0.1 at 2014-11-19 15:04:13 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-19 15:04:13 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-19 15:04:13 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-19 15:04:13 -0600
+
+
+Started GET "/manager" for 127.0.0.1 at 2014-11-19 15:04:15 -0600
+Processing by Manager::BaseController#index as HTML
+  [1m[35mEmployee Load (0.1ms)[0m  SELECT  "employees".* FROM "employees"  WHERE "employees"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered manager/base/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 88ms (Views: 87.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tables" for 127.0.0.1 at 2014-11-19 15:04:24 -0600
+Processing by TablesController#index as HTML
+  [1m[36mTable Load (0.1ms)[0m  [1mSELECT "tables".* FROM "tables"[0m
+  Rendered tables/index.html.erb within layouts/application (0.8ms)
+  [1m[35mEmployee Load (0.1ms)[0m  SELECT  "employees".* FROM "employees"  WHERE "employees"."id" = ? LIMIT 1  [["id", 2]]
+Completed 200 OK in 88ms (Views: 86.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/manager" for 127.0.0.1 at 2014-11-19 15:04:26 -0600
+Processing by Manager::BaseController#index as HTML
+  [1m[36mEmployee Load (0.1ms)[0m  [1mSELECT  "employees".* FROM "employees"  WHERE "employees"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered manager/base/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 80ms (Views: 79.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/manager/employees" for 127.0.0.1 at 2014-11-19 15:04:28 -0600
+Processing by Manager::EmployeesController#index as HTML
+  [1m[35mEmployee Load (0.1ms)[0m  SELECT  "employees".* FROM "employees"  WHERE "employees"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mEmployee Load (0.2ms)[0m  [1mSELECT "employees".* FROM "employees"   ORDER BY "employees"."name" ASC[0m
+  Rendered manager/employees/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 91ms (Views: 89.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/manager/employees/1" for 127.0.0.1 at 2014-11-19 15:04:36 -0600
+Processing by Manager::EmployeesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mEmployee Load (0.1ms)[0m  SELECT  "employees".* FROM "employees"  WHERE "employees"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mEmployee Load (0.1ms)[0m  [1mSELECT  "employees".* FROM "employees"  WHERE "employees"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered manager/employees/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 95ms (Views: 93.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/manager/employees/2" for 127.0.0.1 at 2014-11-19 15:04:40 -0600
+Processing by Manager::EmployeesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mEmployee Load (0.1ms)[0m  SELECT  "employees".* FROM "employees"  WHERE "employees"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mEmployee Load (0.0ms)[0m  [1mSELECT  "employees".* FROM "employees"  WHERE "employees"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered manager/employees/show.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 87ms (Views: 85.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/manager" for 127.0.0.1 at 2014-11-19 15:06:01 -0600
+Processing by Manager::BaseController#index as HTML
+  [1m[35mEmployee Load (0.1ms)[0m  SELECT  "employees".* FROM "employees"  WHERE "employees"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered manager/base/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 87ms (Views: 85.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/manager/items" for 127.0.0.1 at 2014-11-19 15:06:02 -0600
+Processing by Manager::ItemsController#index as HTML
+  [1m[36mCategory Load (0.1ms)[0m  [1mSELECT "categories".* FROM "categories"[0m
+  Rendered manager/items/index.html.erb within layouts/application (4.0ms)
+  [1m[35mEmployee Load (0.1ms)[0m  SELECT  "employees".* FROM "employees"  WHERE "employees"."id" = ? LIMIT 1  [["id", 2]]
+Completed 200 OK in 92ms (Views: 91.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/manager/items/new" for 127.0.0.1 at 2014-11-19 15:06:03 -0600
+Processing by Manager::ItemsController#new as HTML
+  [1m[36mCategory Load (0.1ms)[0m  [1mSELECT "categories".* FROM "categories"[0m
+  Rendered manager/items/_form.html.erb (11.9ms)
+  Rendered manager/items/new.html.erb within layouts/application (16.6ms)
+  [1m[35mEmployee Load (0.1ms)[0m  SELECT  "employees".* FROM "employees"  WHERE "employees"."id" = ? LIMIT 1  [["id", 2]]
+Completed 200 OK in 109ms (Views: 103.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/manager" for 127.0.0.1 at 2014-11-19 15:06:13 -0600
+Processing by Manager::BaseController#index as HTML
+  [1m[36mEmployee Load (0.1ms)[0m  [1mSELECT  "employees".* FROM "employees"  WHERE "employees"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered manager/base/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 86ms (Views: 85.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/manager/employees" for 127.0.0.1 at 2014-11-19 15:08:59 -0600
+Processing by Manager::EmployeesController#index as HTML
+  [1m[35mEmployee Load (0.1ms)[0m  SELECT  "employees".* FROM "employees"  WHERE "employees"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mEmployee Load (0.4ms)[0m  [1mSELECT "employees".* FROM "employees"   ORDER BY "employees"."name" ASC[0m
+  Rendered manager/employees/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 107ms (Views: 104.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/manager" for 127.0.0.1 at 2014-11-19 15:09:42 -0600
+Processing by Manager::BaseController#index as HTML
+  [1m[35mEmployee Load (0.1ms)[0m  SELECT  "employees".* FROM "employees"  WHERE "employees"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered manager/base/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 83ms (Views: 81.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/manager/items" for 127.0.0.1 at 2014-11-19 15:09:44 -0600
+Processing by Manager::ItemsController#index as HTML
+  [1m[36mCategory Load (0.2ms)[0m  [1mSELECT "categories".* FROM "categories"[0m
+  Rendered manager/items/index.html.erb within layouts/application (0.7ms)
+  [1m[35mEmployee Load (0.1ms)[0m  SELECT  "employees".* FROM "employees"  WHERE "employees"."id" = ? LIMIT 1  [["id", 2]]
+Completed 200 OK in 86ms (Views: 85.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/manager/items/new" for 127.0.0.1 at 2014-11-19 15:09:48 -0600
+Processing by Manager::ItemsController#new as HTML
+  [1m[36mCategory Load (0.2ms)[0m  [1mSELECT "categories".* FROM "categories"[0m
+  Rendered manager/items/_form.html.erb (4.8ms)
+  Rendered manager/items/new.html.erb within layouts/application (6.4ms)
+  [1m[35mEmployee Load (0.1ms)[0m  SELECT  "employees".* FROM "employees"  WHERE "employees"."id" = ? LIMIT 1  [["id", 2]]
+Completed 200 OK in 96ms (Views: 94.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/manager/items/new" for 127.0.0.1 at 2014-11-19 15:10:10 -0600
+Processing by Manager::ItemsController#new as HTML
+  [1m[36mCategory Load (0.2ms)[0m  [1mSELECT "categories".* FROM "categories"[0m
+  Rendered manager/items/_form.html.erb (4.0ms)
+  Rendered manager/items/new.html.erb within layouts/application (5.0ms)
+  [1m[35mEmployee Load (0.1ms)[0m  SELECT  "employees".* FROM "employees"  WHERE "employees"."id" = ? LIMIT 1  [["id", 2]]
+Completed 200 OK in 93ms (Views: 91.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/manager" for 127.0.0.1 at 2014-11-19 15:10:45 -0600
+Processing by Manager::BaseController#index as HTML
+  [1m[36mEmployee Load (0.2ms)[0m  [1mSELECT  "employees".* FROM "employees"  WHERE "employees"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered manager/base/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 86ms (Views: 83.6ms | ActiveRecord: 0.2ms)
+
+
+Started DELETE "/signout" for 127.0.0.1 at 2014-11-19 15:10:57 -0600
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"sx3hgnxqZ7EJNzgtfUCs7a6UmGZlZwJ7/cI7WaSSitk="}
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-19 15:10:57 -0600
+Processing by TablesController#index as HTML
+  [1m[35mTable Load (0.1ms)[0m  SELECT "tables".* FROM "tables"
+  Rendered tables/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 80ms (Views: 78.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-19 15:10:57 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-19 15:10:57 -0600
+
+
+Started GET "/assets/employees.css?body=1" for 127.0.0.1 at 2014-11-19 15:10:57 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-19 15:10:57 -0600
+
+
+Started GET "/assets/items.css?body=1" for 127.0.0.1 at 2014-11-19 15:10:57 -0600
+
+
+Started GET "/assets/manager/employees.css?body=1" for 127.0.0.1 at 2014-11-19 15:10:57 -0600
+
+
+Started GET "/assets/manager/items.css?body=1" for 127.0.0.1 at 2014-11-19 15:10:57 -0600
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-11-19 15:10:57 -0600
+
+
+Started GET "/assets/tables.css?body=1" for 127.0.0.1 at 2014-11-19 15:10:57 -0600
+
+
+Started GET "/assets/tickets.css?body=1" for 127.0.0.1 at 2014-11-19 15:10:57 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-19 15:10:57 -0600
+
+
+Started GET "/assets/employees.js?body=1" for 127.0.0.1 at 2014-11-19 15:10:57 -0600
+
+
+Started GET "/assets/tickets.js?body=1" for 127.0.0.1 at 2014-11-19 15:10:57 -0600
+
+
+Started GET "/assets/soon_to_be_sess.js?body=1" for 127.0.0.1 at 2014-11-19 15:10:57 -0600
+
+
+Started GET "/assets/manager/items.js?body=1" for 127.0.0.1 at 2014-11-19 15:10:57 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-19 15:10:57 -0600
+
+
+Started GET "/assets/manager/employees.js?body=1" for 127.0.0.1 at 2014-11-19 15:10:57 -0600
+
+
+Started GET "/assets/tables.js?body=1" for 127.0.0.1 at 2014-11-19 15:10:57 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-19 15:10:57 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-19 15:10:57 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-19 15:16:30 -0600
+Processing by TablesController#index as HTML
+  [1m[36mTable Load (0.1ms)[0m  [1mSELECT "tables".* FROM "tables"[0m
+  Rendered tables/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 84ms (Views: 83.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/employees.css?body=1" for 127.0.0.1 at 2014-11-19 15:16:30 -0600
+
+
+Started GET "/assets/tables.css?body=1" for 127.0.0.1 at 2014-11-19 15:16:30 -0600
+
+
+Started GET "/assets/items.css?body=1" for 127.0.0.1 at 2014-11-19 15:16:30 -0600
+
+
+Started GET "/assets/manager/employees.css?body=1" for 127.0.0.1 at 2014-11-19 15:16:30 -0600
+
+
+Started GET "/assets/manager/items.css?body=1" for 127.0.0.1 at 2014-11-19 15:16:30 -0600
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-11-19 15:16:30 -0600
+
+
+Started GET "/assets/tickets.css?body=1" for 127.0.0.1 at 2014-11-19 15:16:30 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-19 15:16:30 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-19 15:16:30 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-19 15:16:30 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-19 15:16:30 -0600
+
+
+Started GET "/assets/manager/employees.js?body=1" for 127.0.0.1 at 2014-11-19 15:16:30 -0600
+
+
+Started GET "/assets/soon_to_be_sess.js?body=1" for 127.0.0.1 at 2014-11-19 15:16:30 -0600
+
+
+Started GET "/assets/employees.js?body=1" for 127.0.0.1 at 2014-11-19 15:16:30 -0600
+
+
+Started GET "/assets/manager/items.js?body=1" for 127.0.0.1 at 2014-11-19 15:16:30 -0600
+
+
+Started GET "/assets/tables.js?body=1" for 127.0.0.1 at 2014-11-19 15:16:30 -0600
+
+
+Started GET "/assets/items.js?body=1" for 127.0.0.1 at 2014-11-19 15:16:30 -0600
+
+
+Started GET "/assets/tickets.js?body=1" for 127.0.0.1 at 2014-11-19 15:16:30 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-19 15:16:30 -0600
+
+
+Started GET "/signin" for 127.0.0.1 at 2014-11-19 15:16:32 -0600
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 82ms (Views: 81.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/signin" for 127.0.0.1 at 2014-11-19 15:16:34 -0600
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"MI21iKTcTRsEpDvcmZLrvHpas9UElPRlJWavcXHkUnw=", "signin"=>{"pin"=>"00"}, "commit"=>"Sign in"}
+  [1m[35mEmployee Load (0.2ms)[0m  SELECT  "employees".* FROM "employees"  WHERE "employees"."pin" = '00'  ORDER BY "employees"."id" ASC LIMIT 1
+Redirected to http://localhost:3000/
+Completed 302 Found in 2ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-19 15:16:34 -0600
+Processing by TablesController#index as HTML
+  [1m[36mTable Load (0.1ms)[0m  [1mSELECT "tables".* FROM "tables"[0m
+  Rendered tables/index.html.erb within layouts/application (0.4ms)
+  [1m[35mEmployee Load (0.1ms)[0m  SELECT  "employees".* FROM "employees"  WHERE "employees"."id" = ? LIMIT 1  [["id", 2]]
+Completed 200 OK in 79ms (Views: 77.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/employees.css?body=1" for 127.0.0.1 at 2014-11-19 15:16:34 -0600
+
+
+Started GET "/assets/items.css?body=1" for 127.0.0.1 at 2014-11-19 15:16:34 -0600
+
+
+Started GET "/assets/manager/items.css?body=1" for 127.0.0.1 at 2014-11-19 15:16:34 -0600
+
+
+Started GET "/assets/tickets.css?body=1" for 127.0.0.1 at 2014-11-19 15:16:34 -0600
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-11-19 15:16:34 -0600
+
+
+Started GET "/assets/manager/employees.css?body=1" for 127.0.0.1 at 2014-11-19 15:16:34 -0600
+
+
+Started GET "/assets/tables.css?body=1" for 127.0.0.1 at 2014-11-19 15:16:34 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-19 15:16:34 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-19 15:16:34 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-19 15:16:34 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-19 15:16:34 -0600
+
+
+Started GET "/assets/employees.js?body=1" for 127.0.0.1 at 2014-11-19 15:16:34 -0600
+
+
+Started GET "/assets/items.js?body=1" for 127.0.0.1 at 2014-11-19 15:16:35 -0600
+
+
+Started GET "/assets/manager/employees.js?body=1" for 127.0.0.1 at 2014-11-19 15:16:35 -0600
+
+
+Started GET "/assets/manager/items.js?body=1" for 127.0.0.1 at 2014-11-19 15:16:35 -0600
+
+
+Started GET "/assets/tables.js?body=1" for 127.0.0.1 at 2014-11-19 15:16:35 -0600
+
+
+Started GET "/assets/soon_to_be_sess.js?body=1" for 127.0.0.1 at 2014-11-19 15:16:35 -0600
+
+
+Started GET "/assets/tickets.js?body=1" for 127.0.0.1 at 2014-11-19 15:16:35 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-19 15:16:35 -0600
+
+
+Started GET "/manager" for 127.0.0.1 at 2014-11-19 15:16:37 -0600
+Processing by Manager::BaseController#index as HTML
+  [1m[36mEmployee Load (0.1ms)[0m  [1mSELECT  "employees".* FROM "employees"  WHERE "employees"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered manager/base/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 87ms (Views: 85.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/manager/employees" for 127.0.0.1 at 2014-11-19 15:16:38 -0600
+Processing by Manager::EmployeesController#index as HTML
+  [1m[35mEmployee Load (0.1ms)[0m  SELECT  "employees".* FROM "employees"  WHERE "employees"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mEmployee Load (0.2ms)[0m  [1mSELECT "employees".* FROM "employees"   ORDER BY "employees"."name" ASC[0m
+  Rendered manager/employees/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 82ms (Views: 81.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/manager/employees" for 127.0.0.1 at 2014-11-19 15:19:36 -0600
+Processing by Manager::EmployeesController#index as HTML
+  [1m[35mEmployee Load (0.1ms)[0m  SELECT  "employees".* FROM "employees"  WHERE "employees"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mEmployee Load (0.2ms)[0m  [1mSELECT "employees".* FROM "employees"   ORDER BY "employees"."name" ASC[0m
+  Rendered manager/employees/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 90ms (Views: 88.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/items.css?body=1" for 127.0.0.1 at 2014-11-19 15:19:37 -0600
+
+
+Started GET "/assets/employees.css?body=1" for 127.0.0.1 at 2014-11-19 15:19:37 -0600
+
+
+Started GET "/assets/manager/employees.css?body=1" for 127.0.0.1 at 2014-11-19 15:19:37 -0600
+
+
+Started GET "/assets/tables.css?body=1" for 127.0.0.1 at 2014-11-19 15:19:37 -0600
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-11-19 15:19:37 -0600
+
+
+Started GET "/assets/manager/items.css?body=1" for 127.0.0.1 at 2014-11-19 15:19:37 -0600
+
+
+Started GET "/assets/tickets.css?body=1" for 127.0.0.1 at 2014-11-19 15:19:37 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-19 15:19:37 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-19 15:19:37 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-19 15:19:37 -0600
+
+
+Started GET "/assets/employees.js?body=1" for 127.0.0.1 at 2014-11-19 15:19:37 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-19 15:19:37 -0600
+
+
+Started GET "/assets/items.js?body=1" for 127.0.0.1 at 2014-11-19 15:19:37 -0600
+
+
+Started GET "/assets/manager/items.js?body=1" for 127.0.0.1 at 2014-11-19 15:19:37 -0600
+
+
+Started GET "/assets/manager/employees.js?body=1" for 127.0.0.1 at 2014-11-19 15:19:37 -0600
+
+
+Started GET "/assets/soon_to_be_sess.js?body=1" for 127.0.0.1 at 2014-11-19 15:19:37 -0600
+
+
+Started GET "/assets/tables.js?body=1" for 127.0.0.1 at 2014-11-19 15:19:37 -0600
+
+
+Started GET "/assets/tickets.js?body=1" for 127.0.0.1 at 2014-11-19 15:19:37 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-19 15:19:37 -0600
+
+
+Started GET "/manager/employees/1" for 127.0.0.1 at 2014-11-19 15:19:39 -0600
+Processing by Manager::EmployeesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mEmployee Load (0.1ms)[0m  SELECT  "employees".* FROM "employees"  WHERE "employees"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mEmployee Load (0.0ms)[0m  [1mSELECT  "employees".* FROM "employees"  WHERE "employees"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered manager/employees/show.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 80ms (Views: 78.5ms | ActiveRecord: 0.1ms)
+
+
+Started DELETE "/signout" for 127.0.0.1 at 2014-11-19 15:20:40 -0600
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"anV6zEYkPVfOo+nk349xHvFAEU5+F/WYipbQ9sjiTTA="}
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-19 15:20:40 -0600
+Processing by TablesController#index as HTML
+  [1m[35mTable Load (0.2ms)[0m  SELECT "tables".* FROM "tables"
+  Rendered tables/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 95ms (Views: 94.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/employees.css?body=1" for 127.0.0.1 at 2014-11-19 15:20:40 -0600
+
+
+Started GET "/assets/items.css?body=1" for 127.0.0.1 at 2014-11-19 15:20:40 -0600
+
+
+Started GET "/assets/tickets.css?body=1" for 127.0.0.1 at 2014-11-19 15:20:40 -0600
+
+
+Started GET "/assets/manager/employees.css?body=1" for 127.0.0.1 at 2014-11-19 15:20:40 -0600
+
+
+Started GET "/assets/manager/items.css?body=1" for 127.0.0.1 at 2014-11-19 15:20:40 -0600
+
+
+Started GET "/assets/tables.css?body=1" for 127.0.0.1 at 2014-11-19 15:20:40 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-19 15:20:40 -0600
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-11-19 15:20:40 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-19 15:20:40 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-19 15:20:40 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-19 15:20:40 -0600
+
+
+Started GET "/assets/items.js?body=1" for 127.0.0.1 at 2014-11-19 15:20:40 -0600
+
+
+Started GET "/assets/employees.js?body=1" for 127.0.0.1 at 2014-11-19 15:20:40 -0600
+
+
+Started GET "/assets/manager/items.js?body=1" for 127.0.0.1 at 2014-11-19 15:20:40 -0600
+
+
+Started GET "/assets/tickets.js?body=1" for 127.0.0.1 at 2014-11-19 15:20:40 -0600
+
+
+Started GET "/assets/soon_to_be_sess.js?body=1" for 127.0.0.1 at 2014-11-19 15:20:40 -0600
+
+
+Started GET "/assets/tables.js?body=1" for 127.0.0.1 at 2014-11-19 15:20:40 -0600
+
+
+Started GET "/assets/manager/employees.js?body=1" for 127.0.0.1 at 2014-11-19 15:20:40 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-19 15:20:40 -0600
+
+
+Started GET "/signin" for 127.0.0.1 at 2014-11-19 15:20:41 -0600
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 96ms (Views: 95.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/signin" for 127.0.0.1 at 2014-11-19 15:20:44 -0600
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"4pY0R8ElHZh/bWKJRHnCMUFjtK5c1XydyZG6dZjQyxM=", "signin"=>{"pin"=>"11"}, "commit"=>"Sign in"}
+  [1m[36mEmployee Load (0.1ms)[0m  [1mSELECT  "employees".* FROM "employees"  WHERE "employees"."pin" = '11'  ORDER BY "employees"."id" ASC LIMIT 1[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-19 15:20:44 -0600
+Processing by TablesController#index as HTML
+  [1m[35mTable Load (0.1ms)[0m  SELECT "tables".* FROM "tables"
+  Rendered tables/index.html.erb within layouts/application (0.3ms)
+  [1m[36mEmployee Load (0.1ms)[0m  [1mSELECT  "employees".* FROM "employees"  WHERE "employees"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 78ms (Views: 77.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/manager/employees.css?body=1" for 127.0.0.1 at 2014-11-19 15:20:44 -0600
+
+
+Started GET "/assets/items.css?body=1" for 127.0.0.1 at 2014-11-19 15:20:44 -0600
+
+
+Started GET "/assets/employees.css?body=1" for 127.0.0.1 at 2014-11-19 15:20:44 -0600
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-11-19 15:20:44 -0600
+
+
+Started GET "/assets/tables.css?body=1" for 127.0.0.1 at 2014-11-19 15:20:44 -0600
+
+
+Started GET "/assets/tickets.css?body=1" for 127.0.0.1 at 2014-11-19 15:20:44 -0600
+
+
+Started GET "/assets/manager/items.css?body=1" for 127.0.0.1 at 2014-11-19 15:20:44 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-19 15:20:44 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-19 15:20:44 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-19 15:20:44 -0600
+
+
+Started GET "/assets/manager/items.js?body=1" for 127.0.0.1 at 2014-11-19 15:20:44 -0600
+
+
+Started GET "/assets/employees.js?body=1" for 127.0.0.1 at 2014-11-19 15:20:44 -0600
+
+
+Started GET "/assets/items.js?body=1" for 127.0.0.1 at 2014-11-19 15:20:44 -0600
+
+
+Started GET "/assets/manager/employees.js?body=1" for 127.0.0.1 at 2014-11-19 15:20:44 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-19 15:20:44 -0600
+
+
+Started GET "/assets/soon_to_be_sess.js?body=1" for 127.0.0.1 at 2014-11-19 15:20:44 -0600
+
+
+Started GET "/assets/tables.js?body=1" for 127.0.0.1 at 2014-11-19 15:20:44 -0600
+
+
+Started GET "/assets/tickets.js?body=1" for 127.0.0.1 at 2014-11-19 15:20:44 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-19 15:20:44 -0600
+
+
+Started DELETE "/signout" for 127.0.0.1 at 2014-11-19 15:20:50 -0600
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"16EIJsFeyuRxulbkm4GaBKark/8l3mRZqB1Z/9/VO84="}
+Redirected to http://localhost:3000/
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-19 15:20:50 -0600
+Processing by TablesController#index as HTML
+  [1m[35mTable Load (0.1ms)[0m  SELECT "tables".* FROM "tables"
+  Rendered tables/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 81ms (Views: 80.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/items.css?body=1" for 127.0.0.1 at 2014-11-19 15:20:50 -0600
+
+
+Started GET "/assets/manager/items.css?body=1" for 127.0.0.1 at 2014-11-19 15:20:50 -0600
+
+
+Started GET "/assets/manager/employees.css?body=1" for 127.0.0.1 at 2014-11-19 15:20:50 -0600
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-11-19 15:20:50 -0600
+
+
+Started GET "/assets/tickets.css?body=1" for 127.0.0.1 at 2014-11-19 15:20:50 -0600
+
+
+Started GET "/assets/employees.css?body=1" for 127.0.0.1 at 2014-11-19 15:20:50 -0600
+
+
+Started GET "/assets/tables.css?body=1" for 127.0.0.1 at 2014-11-19 15:20:50 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-19 15:20:50 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-19 15:20:50 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-19 15:20:50 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-19 15:20:50 -0600
+
+
+Started GET "/assets/employees.js?body=1" for 127.0.0.1 at 2014-11-19 15:20:50 -0600
+
+
+Started GET "/assets/manager/employees.js?body=1" for 127.0.0.1 at 2014-11-19 15:20:50 -0600
+
+
+Started GET "/assets/items.js?body=1" for 127.0.0.1 at 2014-11-19 15:20:50 -0600
+
+
+Started GET "/assets/manager/items.js?body=1" for 127.0.0.1 at 2014-11-19 15:20:50 -0600
+
+
+Started GET "/assets/soon_to_be_sess.js?body=1" for 127.0.0.1 at 2014-11-19 15:20:50 -0600
+
+
+Started GET "/assets/tables.js?body=1" for 127.0.0.1 at 2014-11-19 15:20:50 -0600
+
+
+Started GET "/assets/tickets.js?body=1" for 127.0.0.1 at 2014-11-19 15:20:50 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-19 15:20:50 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-19 15:20:52 -0600
+Processing by TablesController#index as HTML
+  [1m[36mTable Load (0.1ms)[0m  [1mSELECT "tables".* FROM "tables"[0m
+  Rendered tables/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 86ms (Views: 85.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/employees.css?body=1" for 127.0.0.1 at 2014-11-19 15:20:52 -0600
+
+
+Started GET "/assets/manager/employees.css?body=1" for 127.0.0.1 at 2014-11-19 15:20:52 -0600
+
+
+Started GET "/assets/tickets.css?body=1" for 127.0.0.1 at 2014-11-19 15:20:52 -0600
+
+
+Started GET "/assets/items.css?body=1" for 127.0.0.1 at 2014-11-19 15:20:52 -0600
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-11-19 15:20:52 -0600
+
+
+Started GET "/assets/manager/items.css?body=1" for 127.0.0.1 at 2014-11-19 15:20:52 -0600
+
+
+Started GET "/assets/tables.css?body=1" for 127.0.0.1 at 2014-11-19 15:20:52 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-19 15:20:52 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-19 15:20:52 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-19 15:20:52 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-19 15:20:52 -0600
+
+
+Started GET "/assets/employees.js?body=1" for 127.0.0.1 at 2014-11-19 15:20:52 -0600
+
+
+Started GET "/assets/items.js?body=1" for 127.0.0.1 at 2014-11-19 15:20:52 -0600
+
+
+Started GET "/assets/manager/employees.js?body=1" for 127.0.0.1 at 2014-11-19 15:20:52 -0600
+
+
+Started GET "/assets/tables.js?body=1" for 127.0.0.1 at 2014-11-19 15:20:52 -0600
+
+
+Started GET "/assets/soon_to_be_sess.js?body=1" for 127.0.0.1 at 2014-11-19 15:20:52 -0600
+
+
+Started GET "/assets/manager/items.js?body=1" for 127.0.0.1 at 2014-11-19 15:20:52 -0600
+
+
+Started GET "/assets/tickets.js?body=1" for 127.0.0.1 at 2014-11-19 15:20:52 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-19 15:20:52 -0600
+
+
+Started GET "/signin" for 127.0.0.1 at 2014-11-19 15:21:16 -0600
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 88ms (Views: 87.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/signin" for 127.0.0.1 at 2014-11-19 15:21:19 -0600
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Ma+69MO517j2XIBNkszkGoXCiV10ig+aYh6mmVQpu1o=", "signin"=>{"pin"=>"11"}, "commit"=>"Sign in"}
+  [1m[35mEmployee Load (0.2ms)[0m  SELECT  "employees".* FROM "employees"  WHERE "employees"."pin" = '11'  ORDER BY "employees"."id" ASC LIMIT 1
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-19 15:21:19 -0600
+Processing by TablesController#index as HTML
+  [1m[36mTable Load (0.1ms)[0m  [1mSELECT "tables".* FROM "tables"[0m
+  Rendered tables/index.html.erb within layouts/application (0.4ms)
+  [1m[35mEmployee Load (0.1ms)[0m  SELECT  "employees".* FROM "employees"  WHERE "employees"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 85ms (Views: 84.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/employees.css?body=1" for 127.0.0.1 at 2014-11-19 15:21:20 -0600
+
+
+Started GET "/assets/items.css?body=1" for 127.0.0.1 at 2014-11-19 15:21:20 -0600
+
+
+Started GET "/assets/manager/employees.css?body=1" for 127.0.0.1 at 2014-11-19 15:21:20 -0600
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-11-19 15:21:20 -0600
+
+
+Started GET "/assets/manager/items.css?body=1" for 127.0.0.1 at 2014-11-19 15:21:20 -0600
+
+
+Started GET "/assets/tickets.css?body=1" for 127.0.0.1 at 2014-11-19 15:21:20 -0600
+
+
+Started GET "/assets/tables.css?body=1" for 127.0.0.1 at 2014-11-19 15:21:20 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-19 15:21:20 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-19 15:21:20 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-19 15:21:20 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-19 15:21:20 -0600
+
+
+Started GET "/assets/items.js?body=1" for 127.0.0.1 at 2014-11-19 15:21:20 -0600
+
+
+Started GET "/assets/employees.js?body=1" for 127.0.0.1 at 2014-11-19 15:21:20 -0600
+
+
+Started GET "/assets/manager/employees.js?body=1" for 127.0.0.1 at 2014-11-19 15:21:20 -0600
+
+
+Started GET "/assets/soon_to_be_sess.js?body=1" for 127.0.0.1 at 2014-11-19 15:21:20 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-19 15:21:20 -0600
+
+
+Started GET "/assets/tickets.js?body=1" for 127.0.0.1 at 2014-11-19 15:21:20 -0600
+
+
+Started GET "/assets/manager/items.js?body=1" for 127.0.0.1 at 2014-11-19 15:21:20 -0600
+
+
+Started GET "/assets/tables.js?body=1" for 127.0.0.1 at 2014-11-19 15:21:20 -0600
+
+
+Started DELETE "/signout" for 127.0.0.1 at 2014-11-19 15:21:24 -0600
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"ldFofEMMyPiumdI7i9ceiTXygo1pcaA1MXCNR9FdL5A="}
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-19 15:21:24 -0600
+Processing by TablesController#index as HTML
+  [1m[36mTable Load (0.1ms)[0m  [1mSELECT "tables".* FROM "tables"[0m
+  Rendered tables/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 82ms (Views: 81.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/employees.css?body=1" for 127.0.0.1 at 2014-11-19 15:21:25 -0600
+
+
+Started GET "/assets/manager/items.css?body=1" for 127.0.0.1 at 2014-11-19 15:21:25 -0600
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-11-19 15:21:25 -0600
+
+
+Started GET "/assets/tables.css?body=1" for 127.0.0.1 at 2014-11-19 15:21:25 -0600
+
+
+Started GET "/assets/items.css?body=1" for 127.0.0.1 at 2014-11-19 15:21:25 -0600
+
+
+Started GET "/assets/manager/employees.css?body=1" for 127.0.0.1 at 2014-11-19 15:21:25 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-19 15:21:25 -0600
+
+
+Started GET "/assets/employees.js?body=1" for 127.0.0.1 at 2014-11-19 15:21:25 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-19 15:21:25 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-19 15:21:25 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-19 15:21:25 -0600
+
+
+Started GET "/assets/tickets.css?body=1" for 127.0.0.1 at 2014-11-19 15:21:25 -0600
+
+
+Started GET "/assets/items.js?body=1" for 127.0.0.1 at 2014-11-19 15:21:25 -0600
+
+
+Started GET "/assets/manager/employees.js?body=1" for 127.0.0.1 at 2014-11-19 15:21:25 -0600
+
+
+Started GET "/assets/manager/items.js?body=1" for 127.0.0.1 at 2014-11-19 15:21:25 -0600
+
+
+Started GET "/assets/soon_to_be_sess.js?body=1" for 127.0.0.1 at 2014-11-19 15:21:25 -0600
+
+
+Started GET "/assets/tables.js?body=1" for 127.0.0.1 at 2014-11-19 15:21:25 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-19 15:21:25 -0600
+
+
+Started GET "/assets/tickets.js?body=1" for 127.0.0.1 at 2014-11-19 15:21:25 -0600
+
+
+Started GET "/signin" for 127.0.0.1 at 2014-11-19 15:21:26 -0600
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 88ms (Views: 87.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/signin" for 127.0.0.1 at 2014-11-19 15:21:28 -0600
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"W5mxgqdn53aOsY/naVw4N8nRDgOiqmZufXoEFhSfMik=", "signin"=>{"pin"=>"00"}, "commit"=>"Sign in"}
+  [1m[35mEmployee Load (0.2ms)[0m  SELECT  "employees".* FROM "employees"  WHERE "employees"."pin" = '00'  ORDER BY "employees"."id" ASC LIMIT 1
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-19 15:21:28 -0600
+Processing by TablesController#index as HTML
+  [1m[36mTable Load (0.1ms)[0m  [1mSELECT "tables".* FROM "tables"[0m
+  Rendered tables/index.html.erb within layouts/application (0.5ms)
+  [1m[35mEmployee Load (0.1ms)[0m  SELECT  "employees".* FROM "employees"  WHERE "employees"."id" = ? LIMIT 1  [["id", 2]]
+Completed 200 OK in 85ms (Views: 84.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/items.css?body=1" for 127.0.0.1 at 2014-11-19 15:21:28 -0600
+
+
+Started GET "/assets/employees.css?body=1" for 127.0.0.1 at 2014-11-19 15:21:28 -0600
+
+
+Started GET "/assets/manager/items.css?body=1" for 127.0.0.1 at 2014-11-19 15:21:28 -0600
+
+
+Started GET "/assets/tables.css?body=1" for 127.0.0.1 at 2014-11-19 15:21:28 -0600
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-11-19 15:21:28 -0600
+
+
+Started GET "/assets/manager/employees.css?body=1" for 127.0.0.1 at 2014-11-19 15:21:28 -0600
+
+
+Started GET "/assets/tickets.css?body=1" for 127.0.0.1 at 2014-11-19 15:21:28 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-19 15:21:28 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-19 15:21:28 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-19 15:21:28 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-19 15:21:28 -0600
+
+
+Started GET "/assets/employees.js?body=1" for 127.0.0.1 at 2014-11-19 15:21:28 -0600
+
+
+Started GET "/assets/soon_to_be_sess.js?body=1" for 127.0.0.1 at 2014-11-19 15:21:28 -0600
+
+
+Started GET "/assets/tables.js?body=1" for 127.0.0.1 at 2014-11-19 15:21:28 -0600
+
+
+Started GET "/assets/tickets.js?body=1" for 127.0.0.1 at 2014-11-19 15:21:28 -0600
+
+
+Started GET "/assets/items.js?body=1" for 127.0.0.1 at 2014-11-19 15:21:28 -0600
+
+
+Started GET "/assets/manager/employees.js?body=1" for 127.0.0.1 at 2014-11-19 15:21:28 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-19 15:21:28 -0600
+
+
+Started GET "/assets/manager/items.js?body=1" for 127.0.0.1 at 2014-11-19 15:21:28 -0600
+
+
+Started GET "/manager" for 127.0.0.1 at 2014-11-19 15:21:29 -0600
+Processing by Manager::BaseController#index as HTML
+  [1m[36mEmployee Load (0.1ms)[0m  [1mSELECT  "employees".* FROM "employees"  WHERE "employees"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered manager/base/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 83ms (Views: 81.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/manager/employees" for 127.0.0.1 at 2014-11-19 15:21:32 -0600
+Processing by Manager::EmployeesController#index as HTML
+  [1m[35mEmployee Load (0.1ms)[0m  SELECT  "employees".* FROM "employees"  WHERE "employees"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mEmployee Load (0.1ms)[0m  [1mSELECT "employees".* FROM "employees"   ORDER BY "employees"."name" ASC[0m
+  Rendered manager/employees/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 84ms (Views: 82.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/manager" for 127.0.0.1 at 2014-11-19 15:21:34 -0600
+Processing by Manager::BaseController#index as HTML
+  [1m[35mEmployee Load (0.1ms)[0m  SELECT  "employees".* FROM "employees"  WHERE "employees"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered manager/base/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 85ms (Views: 83.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tables" for 127.0.0.1 at 2014-11-19 15:21:35 -0600
+Processing by TablesController#index as HTML
+  [1m[36mTable Load (0.1ms)[0m  [1mSELECT "tables".* FROM "tables"[0m
+  Rendered tables/index.html.erb within layouts/application (0.4ms)
+  [1m[35mEmployee Load (0.1ms)[0m  SELECT  "employees".* FROM "employees"  WHERE "employees"."id" = ? LIMIT 1  [["id", 2]]
+Completed 200 OK in 83ms (Views: 82.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/manager" for 127.0.0.1 at 2014-11-19 15:21:36 -0600
+Processing by Manager::BaseController#index as HTML
+  [1m[36mEmployee Load (0.1ms)[0m  [1mSELECT  "employees".* FROM "employees"  WHERE "employees"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered manager/base/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 81ms (Views: 80.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/manager/items" for 127.0.0.1 at 2014-11-19 15:21:38 -0600
+Processing by Manager::ItemsController#index as HTML
+  [1m[35mCategory Load (0.1ms)[0m  SELECT "categories".* FROM "categories"
+  Rendered manager/items/index.html.erb within layouts/application (0.6ms)
+  [1m[36mEmployee Load (0.1ms)[0m  [1mSELECT  "employees".* FROM "employees"  WHERE "employees"."id" = ? LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 81ms (Views: 79.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/manager" for 127.0.0.1 at 2014-11-19 15:21:39 -0600
+Processing by Manager::BaseController#index as HTML
+  [1m[35mEmployee Load (0.2ms)[0m  SELECT  "employees".* FROM "employees"  WHERE "employees"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered manager/base/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 87ms (Views: 85.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tables" for 127.0.0.1 at 2014-11-19 15:33:20 -0600
+Processing by TablesController#index as HTML
+  [1m[36mTable Load (0.2ms)[0m  [1mSELECT "tables".* FROM "tables"[0m
+  Rendered tables/index.html.erb within layouts/application (0.7ms)
+  [1m[35mEmployee Load (0.1ms)[0m  SELECT  "employees".* FROM "employees"  WHERE "employees"."id" = ? LIMIT 1  [["id", 2]]
+Completed 200 OK in 100ms (Views: 99.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/manager" for 127.0.0.1 at 2014-11-19 15:33:21 -0600
+Processing by Manager::BaseController#index as HTML
+  [1m[36mEmployee Load (0.1ms)[0m  [1mSELECT  "employees".* FROM "employees"  WHERE "employees"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered manager/base/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 105ms (Views: 104.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/manager/employees" for 127.0.0.1 at 2014-11-19 15:33:22 -0600
+Processing by Manager::EmployeesController#index as HTML
+  [1m[35mEmployee Load (0.2ms)[0m  SELECT  "employees".* FROM "employees"  WHERE "employees"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mEmployee Load (0.3ms)[0m  [1mSELECT "employees".* FROM "employees"   ORDER BY "employees"."name" ASC[0m
+  Rendered manager/employees/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 95ms (Views: 93.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/manager/employees/1" for 127.0.0.1 at 2014-11-19 15:33:37 -0600
+Processing by Manager::EmployeesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mEmployee Load (0.1ms)[0m  SELECT  "employees".* FROM "employees"  WHERE "employees"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mEmployee Load (0.0ms)[0m  [1mSELECT  "employees".* FROM "employees"  WHERE "employees"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered manager/employees/show.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 79ms (Views: 77.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/manager/employees/1/edit" for 127.0.0.1 at 2014-11-19 15:35:06 -0600
+Processing by Manager::EmployeesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mEmployee Load (0.1ms)[0m  SELECT  "employees".* FROM "employees"  WHERE "employees"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mEmployee Load (0.0ms)[0m  [1mSELECT  "employees".* FROM "employees"  WHERE "employees"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered manager/employees/_form.html.erb (2.2ms)
+  Rendered manager/employees/edit.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 101ms (Views: 99.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/manager" for 127.0.0.1 at 2014-11-19 15:35:45 -0600
+Processing by Manager::BaseController#index as HTML
+  [1m[35mEmployee Load (0.1ms)[0m  SELECT  "employees".* FROM "employees"  WHERE "employees"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered manager/base/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 89ms (Views: 88.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/manager/employees" for 127.0.0.1 at 2014-11-19 15:35:47 -0600
+Processing by Manager::EmployeesController#index as HTML
+  [1m[36mEmployee Load (0.1ms)[0m  [1mSELECT  "employees".* FROM "employees"  WHERE "employees"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mEmployee Load (0.1ms)[0m  SELECT "employees".* FROM "employees"   ORDER BY "employees"."name" ASC
+  Rendered manager/employees/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 84ms (Views: 82.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/manager/employees/1" for 127.0.0.1 at 2014-11-19 15:35:59 -0600
+Processing by Manager::EmployeesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mEmployee Load (0.1ms)[0m  [1mSELECT  "employees".* FROM "employees"  WHERE "employees"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mEmployee Load (0.0ms)[0m  SELECT  "employees".* FROM "employees"  WHERE "employees"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered manager/employees/show.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 82ms (Views: 80.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/manager/employees/1/edit" for 127.0.0.1 at 2014-11-19 15:36:13 -0600
+Processing by Manager::EmployeesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mEmployee Load (0.1ms)[0m  [1mSELECT  "employees".* FROM "employees"  WHERE "employees"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mEmployee Load (0.0ms)[0m  SELECT  "employees".* FROM "employees"  WHERE "employees"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered manager/employees/_form.html.erb (0.9ms)
+  Rendered manager/employees/edit.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 83ms (Views: 80.5ms | ActiveRecord: 0.2ms)
+
+
+Started PATCH "/manager/employees/1" for 127.0.0.1 at 2014-11-19 15:36:21 -0600
+Processing by Manager::EmployeesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xH5cG39Gj19uRJUyvGYnqmHprk8tGRQwcXL772+9nhs=", "employee"=>{"name"=>"Bob", "pin"=>"11"}, "commit"=>"Submit", "id"=>"1"}
+  [1m[36mEmployee Load (0.1ms)[0m  [1mSELECT  "employees".* FROM "employees"  WHERE "employees"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mEmployee Load (0.0ms)[0m  SELECT  "employees".* FROM "employees"  WHERE "employees"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  UPDATE "employees" SET "name" = ?, "updated_at" = ? WHERE "employees"."id" = 1  [["name", "Bob"], ["updated_at", "2014-11-19 21:36:21.247303"]]
+  [1m[36m (116.8ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/manager/employees/1
+Completed 302 Found in 121ms (ActiveRecord: 117.3ms)
+
+
+Started GET "/manager/employees/1" for 127.0.0.1 at 2014-11-19 15:36:21 -0600
+Processing by Manager::EmployeesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mEmployee Load (0.1ms)[0m  SELECT  "employees".* FROM "employees"  WHERE "employees"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mEmployee Load (0.0ms)[0m  [1mSELECT  "employees".* FROM "employees"  WHERE "employees"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered manager/employees/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 85ms (Views: 83.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/employees.css?body=1" for 127.0.0.1 at 2014-11-19 15:36:21 -0600
+
+
+Started GET "/assets/manager/employees.css?body=1" for 127.0.0.1 at 2014-11-19 15:36:21 -0600
+
+
+Started GET "/assets/tables.css?body=1" for 127.0.0.1 at 2014-11-19 15:36:21 -0600
+
+
+Started GET "/assets/tickets.css?body=1" for 127.0.0.1 at 2014-11-19 15:36:21 -0600
+
+
+Started GET "/assets/items.css?body=1" for 127.0.0.1 at 2014-11-19 15:36:21 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-19 15:36:21 -0600
+
+
+Started GET "/assets/manager/items.css?body=1" for 127.0.0.1 at 2014-11-19 15:36:21 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-19 15:36:21 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-19 15:36:21 -0600
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-11-19 15:36:21 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-19 15:36:21 -0600
+
+
+Started GET "/assets/employees.js?body=1" for 127.0.0.1 at 2014-11-19 15:36:21 -0600
+
+
+Started GET "/assets/items.js?body=1" for 127.0.0.1 at 2014-11-19 15:36:21 -0600
+
+
+Started GET "/assets/manager/employees.js?body=1" for 127.0.0.1 at 2014-11-19 15:36:21 -0600
+
+
+Started GET "/assets/manager/items.js?body=1" for 127.0.0.1 at 2014-11-19 15:36:21 -0600
+
+
+Started GET "/assets/soon_to_be_sess.js?body=1" for 127.0.0.1 at 2014-11-19 15:36:21 -0600
+
+
+Started GET "/assets/tables.js?body=1" for 127.0.0.1 at 2014-11-19 15:36:21 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-19 15:36:21 -0600
+
+
+Started GET "/assets/tickets.js?body=1" for 127.0.0.1 at 2014-11-19 15:36:21 -0600
+
+
+Started GET "/manager" for 127.0.0.1 at 2014-11-19 15:36:23 -0600
+Processing by Manager::BaseController#index as HTML
+  [1m[35mEmployee Load (0.1ms)[0m  SELECT  "employees".* FROM "employees"  WHERE "employees"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered manager/base/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 83ms (Views: 81.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tables" for 127.0.0.1 at 2014-11-19 15:36:39 -0600
+Processing by TablesController#index as HTML
+  [1m[36mTable Load (0.1ms)[0m  [1mSELECT "tables".* FROM "tables"[0m
+  Rendered tables/index.html.erb within layouts/application (0.4ms)
+  [1m[35mEmployee Load (0.1ms)[0m  SELECT  "employees".* FROM "employees"  WHERE "employees"."id" = ? LIMIT 1  [["id", 2]]
+Completed 200 OK in 81ms (Views: 80.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/manager" for 127.0.0.1 at 2014-11-19 15:36:41 -0600
+Processing by Manager::BaseController#index as HTML
+  [1m[36mEmployee Load (0.1ms)[0m  [1mSELECT  "employees".* FROM "employees"  WHERE "employees"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered manager/base/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 77ms (Views: 75.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/manager/items" for 127.0.0.1 at 2014-11-19 15:36:46 -0600
+Processing by Manager::ItemsController#index as HTML
+  [1m[35mCategory Load (0.1ms)[0m  SELECT "categories".* FROM "categories"
+  Rendered manager/items/index.html.erb within layouts/application (0.6ms)
+  [1m[36mEmployee Load (0.1ms)[0m  [1mSELECT  "employees".* FROM "employees"  WHERE "employees"."id" = ? LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 83ms (Views: 82.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/manager/items/new" for 127.0.0.1 at 2014-11-19 15:36:49 -0600
+Processing by Manager::ItemsController#new as HTML
+  [1m[35mCategory Load (0.2ms)[0m  SELECT "categories".* FROM "categories"
+  Rendered manager/items/_form.html.erb (3.8ms)
+  Rendered manager/items/new.html.erb within layouts/application (4.6ms)
+  [1m[36mEmployee Load (0.1ms)[0m  [1mSELECT  "employees".* FROM "employees"  WHERE "employees"."id" = ? LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 85ms (Views: 84.2ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/manager/items" for 127.0.0.1 at 2014-11-19 15:36:50 -0600
+Processing by Manager::ItemsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xH5cG39Gj19uRJUyvGYnqmHprk8tGRQwcXL772+9nhs=", "item"=>{"category_id"=>"", "name"=>"", "cost"=>"", "quantity"=>"1", "comment"=>""}, "commit"=>"Add Item"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35mCategory Load (0.1ms)[0m  SELECT "categories".* FROM "categories"
+  Rendered manager/items/_form.html.erb (6.0ms)
+  Rendered manager/items/new.html.erb within layouts/application (6.8ms)
+  [1m[36mEmployee Load (0.1ms)[0m  [1mSELECT  "employees".* FROM "employees"  WHERE "employees"."id" = ? LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 96ms (Views: 93.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/employees.css?body=1" for 127.0.0.1 at 2014-11-19 15:36:50 -0600
+
+
+Started GET "/assets/items.css?body=1" for 127.0.0.1 at 2014-11-19 15:36:50 -0600
+
+
+Started GET "/assets/manager/employees.css?body=1" for 127.0.0.1 at 2014-11-19 15:36:50 -0600
+
+
+Started GET "/assets/tables.css?body=1" for 127.0.0.1 at 2014-11-19 15:36:50 -0600
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-11-19 15:36:50 -0600
+
+
+Started GET "/assets/manager/items.css?body=1" for 127.0.0.1 at 2014-11-19 15:36:50 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-19 15:36:50 -0600
+
+
+Started GET "/assets/tickets.css?body=1" for 127.0.0.1 at 2014-11-19 15:36:50 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-19 15:36:50 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-19 15:36:50 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-19 15:36:50 -0600
+
+
+Started GET "/assets/items.js?body=1" for 127.0.0.1 at 2014-11-19 15:36:50 -0600
+
+
+Started GET "/assets/employees.js?body=1" for 127.0.0.1 at 2014-11-19 15:36:50 -0600
+
+
+Started GET "/assets/manager/items.js?body=1" for 127.0.0.1 at 2014-11-19 15:36:50 -0600
+
+
+Started GET "/assets/soon_to_be_sess.js?body=1" for 127.0.0.1 at 2014-11-19 15:36:50 -0600
+
+
+Started GET "/assets/manager/employees.js?body=1" for 127.0.0.1 at 2014-11-19 15:36:50 -0600
+
+
+Started GET "/assets/tables.js?body=1" for 127.0.0.1 at 2014-11-19 15:36:50 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-19 15:36:51 -0600
+
+
+Started GET "/assets/tickets.js?body=1" for 127.0.0.1 at 2014-11-19 15:36:51 -0600
+
+
+Started POST "/manager/items" for 127.0.0.1 at 2014-11-19 15:46:30 -0600
+Processing by Manager::ItemsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xH5cG39Gj19uRJUyvGYnqmHprk8tGRQwcXL772+9nhs=", "item"=>{"category_id"=>"", "name"=>"", "cost"=>"", "quantity"=>"1", "comment"=>""}, "commit"=>"Add Item"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35mCategory Load (0.1ms)[0m  SELECT "categories".* FROM "categories"
+  Rendered manager/items/_form.html.erb (5.3ms)
+  Rendered manager/items/new.html.erb within layouts/application (5.9ms)
+  [1m[36mEmployee Load (0.1ms)[0m  [1mSELECT  "employees".* FROM "employees"  WHERE "employees"."id" = ? LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 113ms (Views: 108.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/employees.css?body=1" for 127.0.0.1 at 2014-11-19 15:46:30 -0600
+
+
+Started GET "/assets/items.css?body=1" for 127.0.0.1 at 2014-11-19 15:46:30 -0600
+
+
+Started GET "/assets/manager/items.css?body=1" for 127.0.0.1 at 2014-11-19 15:46:30 -0600
+
+
+Started GET "/assets/tables.css?body=1" for 127.0.0.1 at 2014-11-19 15:46:30 -0600
+
+
+Started GET "/assets/manager/employees.css?body=1" for 127.0.0.1 at 2014-11-19 15:46:30 -0600
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-11-19 15:46:30 -0600
+
+
+Started GET "/assets/tickets.css?body=1" for 127.0.0.1 at 2014-11-19 15:46:30 -0600
+
+
+Started GET "/assets/employees.js?body=1" for 127.0.0.1 at 2014-11-19 15:46:30 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-19 15:46:30 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-19 15:46:30 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-19 15:46:30 -0600
+
+
+Started GET "/assets/items.js?body=1" for 127.0.0.1 at 2014-11-19 15:46:30 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-19 15:46:30 -0600
+
+
+Started GET "/assets/manager/employees.js?body=1" for 127.0.0.1 at 2014-11-19 15:46:30 -0600
+
+
+Started GET "/assets/manager/items.js?body=1" for 127.0.0.1 at 2014-11-19 15:46:30 -0600
+
+
+Started GET "/assets/soon_to_be_sess.js?body=1" for 127.0.0.1 at 2014-11-19 15:46:30 -0600
+
+
+Started GET "/assets/tables.js?body=1" for 127.0.0.1 at 2014-11-19 15:46:30 -0600
+
+
+Started GET "/assets/tickets.js?body=1" for 127.0.0.1 at 2014-11-19 15:46:30 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-19 15:46:30 -0600
+
+
+Started GET "/manager" for 127.0.0.1 at 2014-11-19 15:46:32 -0600
+Processing by Manager::BaseController#index as HTML
+  [1m[35mEmployee Load (0.1ms)[0m  SELECT  "employees".* FROM "employees"  WHERE "employees"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered manager/base/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 90ms (Views: 88.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/employees.css?body=1" for 127.0.0.1 at 2014-11-19 15:46:32 -0600
+
+
+Started GET "/assets/tables.css?body=1" for 127.0.0.1 at 2014-11-19 15:46:32 -0600
+
+
+Started GET "/assets/items.css?body=1" for 127.0.0.1 at 2014-11-19 15:46:32 -0600
+
+
+Started GET "/assets/manager/items.css?body=1" for 127.0.0.1 at 2014-11-19 15:46:32 -0600
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-11-19 15:46:32 -0600
+
+
+Started GET "/assets/manager/employees.css?body=1" for 127.0.0.1 at 2014-11-19 15:46:32 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-19 15:46:32 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-19 15:46:32 -0600
+
+
+Started GET "/assets/tickets.css?body=1" for 127.0.0.1 at 2014-11-19 15:46:32 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-19 15:46:32 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-19 15:46:32 -0600
+
+
+Started GET "/assets/employees.js?body=1" for 127.0.0.1 at 2014-11-19 15:46:32 -0600
+
+
+Started GET "/assets/items.js?body=1" for 127.0.0.1 at 2014-11-19 15:46:32 -0600
+
+
+Started GET "/assets/manager/employees.js?body=1" for 127.0.0.1 at 2014-11-19 15:46:32 -0600
+
+
+Started GET "/assets/soon_to_be_sess.js?body=1" for 127.0.0.1 at 2014-11-19 15:46:32 -0600
+
+
+Started GET "/assets/manager/items.js?body=1" for 127.0.0.1 at 2014-11-19 15:46:32 -0600
+
+
+Started GET "/assets/tables.js?body=1" for 127.0.0.1 at 2014-11-19 15:46:32 -0600
+
+
+Started GET "/assets/tickets.js?body=1" for 127.0.0.1 at 2014-11-19 15:46:32 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-19 15:46:32 -0600
+
+
+Started DELETE "/signout" for 127.0.0.1 at 2014-11-19 15:46:33 -0600
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"xH5cG39Gj19uRJUyvGYnqmHprk8tGRQwcXL772+9nhs="}
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-19 15:46:33 -0600
+Processing by TablesController#index as HTML
+  [1m[36mTable Load (0.1ms)[0m  [1mSELECT "tables".* FROM "tables"[0m
+  Rendered tables/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 83ms (Views: 81.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/employees.css?body=1" for 127.0.0.1 at 2014-11-19 15:46:33 -0600
+
+
+Started GET "/assets/items.css?body=1" for 127.0.0.1 at 2014-11-19 15:46:33 -0600
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-11-19 15:46:33 -0600
+
+
+Started GET "/assets/manager/employees.css?body=1" for 127.0.0.1 at 2014-11-19 15:46:33 -0600
+
+
+Started GET "/assets/manager/items.css?body=1" for 127.0.0.1 at 2014-11-19 15:46:33 -0600
+
+
+Started GET "/assets/tables.css?body=1" for 127.0.0.1 at 2014-11-19 15:46:33 -0600
+
+
+Started GET "/assets/tickets.css?body=1" for 127.0.0.1 at 2014-11-19 15:46:33 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-19 15:46:33 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-19 15:46:33 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-19 15:46:33 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-19 15:46:33 -0600
+
+
+Started GET "/assets/employees.js?body=1" for 127.0.0.1 at 2014-11-19 15:46:33 -0600
+
+
+Started GET "/assets/items.js?body=1" for 127.0.0.1 at 2014-11-19 15:46:33 -0600
+
+
+Started GET "/assets/manager/employees.js?body=1" for 127.0.0.1 at 2014-11-19 15:46:33 -0600
+
+
+Started GET "/assets/manager/items.js?body=1" for 127.0.0.1 at 2014-11-19 15:46:33 -0600
+
+
+Started GET "/assets/soon_to_be_sess.js?body=1" for 127.0.0.1 at 2014-11-19 15:46:33 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-19 15:46:33 -0600
+
+
+Started GET "/assets/tables.js?body=1" for 127.0.0.1 at 2014-11-19 15:46:33 -0600
+
+
+Started GET "/assets/tickets.js?body=1" for 127.0.0.1 at 2014-11-19 15:46:33 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-19 15:46:53 -0600
+Processing by TablesController#index as HTML
+  [1m[35mTable Load (0.1ms)[0m  SELECT "tables".* FROM "tables"
+  Rendered tables/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 100ms (Views: 99.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/employees.css?body=1" for 127.0.0.1 at 2014-11-19 15:46:53 -0600
+
+
+Started GET "/assets/manager/employees.css?body=1" for 127.0.0.1 at 2014-11-19 15:46:53 -0600
+
+
+Started GET "/assets/items.css?body=1" for 127.0.0.1 at 2014-11-19 15:46:53 -0600
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-11-19 15:46:53 -0600
+
+
+Started GET "/assets/tables.css?body=1" for 127.0.0.1 at 2014-11-19 15:46:53 -0600
+
+
+Started GET "/assets/manager/items.css?body=1" for 127.0.0.1 at 2014-11-19 15:46:53 -0600
+
+
+Started GET "/assets/tickets.css?body=1" for 127.0.0.1 at 2014-11-19 15:46:53 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-19 15:46:53 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-19 15:46:53 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-19 15:46:53 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-19 15:46:53 -0600
+
+
+Started GET "/assets/employees.js?body=1" for 127.0.0.1 at 2014-11-19 15:46:53 -0600
+
+
+Started GET "/assets/items.js?body=1" for 127.0.0.1 at 2014-11-19 15:46:53 -0600
+
+
+Started GET "/assets/manager/items.js?body=1" for 127.0.0.1 at 2014-11-19 15:46:53 -0600
+
+
+Started GET "/assets/soon_to_be_sess.js?body=1" for 127.0.0.1 at 2014-11-19 15:46:53 -0600
+
+
+Started GET "/assets/manager/employees.js?body=1" for 127.0.0.1 at 2014-11-19 15:46:53 -0600
+
+
+Started GET "/assets/tables.js?body=1" for 127.0.0.1 at 2014-11-19 15:46:53 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-19 15:46:53 -0600
+
+
+Started GET "/assets/tickets.js?body=1" for 127.0.0.1 at 2014-11-19 15:46:53 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-19 15:46:54 -0600
+Processing by TablesController#index as HTML
+  [1m[36mTable Load (0.1ms)[0m  [1mSELECT "tables".* FROM "tables"[0m
+  Rendered tables/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 82ms (Views: 81.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/employees.css?body=1" for 127.0.0.1 at 2014-11-19 15:46:54 -0600
+
+
+Started GET "/assets/tables.css?body=1" for 127.0.0.1 at 2014-11-19 15:46:54 -0600
+
+
+Started GET "/assets/manager/items.css?body=1" for 127.0.0.1 at 2014-11-19 15:46:54 -0600
+
+
+Started GET "/assets/manager/employees.css?body=1" for 127.0.0.1 at 2014-11-19 15:46:54 -0600
+
+
+Started GET "/assets/items.css?body=1" for 127.0.0.1 at 2014-11-19 15:46:54 -0600
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-11-19 15:46:54 -0600
+
+
+Started GET "/assets/tickets.css?body=1" for 127.0.0.1 at 2014-11-19 15:46:54 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-19 15:46:54 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-19 15:46:54 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-19 15:46:54 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-19 15:46:54 -0600
+
+
+Started GET "/assets/employees.js?body=1" for 127.0.0.1 at 2014-11-19 15:46:54 -0600
+
+
+Started GET "/assets/items.js?body=1" for 127.0.0.1 at 2014-11-19 15:46:54 -0600
+
+
+Started GET "/assets/manager/items.js?body=1" for 127.0.0.1 at 2014-11-19 15:46:54 -0600
+
+
+Started GET "/assets/manager/employees.js?body=1" for 127.0.0.1 at 2014-11-19 15:46:54 -0600
+
+
+Started GET "/assets/soon_to_be_sess.js?body=1" for 127.0.0.1 at 2014-11-19 15:46:54 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-19 15:46:54 -0600
+
+
+Started GET "/assets/tables.js?body=1" for 127.0.0.1 at 2014-11-19 15:46:54 -0600
+
+
+Started GET "/assets/tickets.js?body=1" for 127.0.0.1 at 2014-11-19 15:46:54 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-19 15:48:04 -0600
+Processing by TablesController#index as HTML
+  [1m[35mTable Load (0.1ms)[0m  SELECT "tables".* FROM "tables"
+  Rendered tables/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 100ms (Views: 99.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/employees.css?body=1" for 127.0.0.1 at 2014-11-19 15:48:04 -0600
+
+
+Started GET "/assets/manager/employees.css?body=1" for 127.0.0.1 at 2014-11-19 15:48:04 -0600
+
+
+Started GET "/assets/items.css?body=1" for 127.0.0.1 at 2014-11-19 15:48:04 -0600
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-11-19 15:48:04 -0600
+
+
+Started GET "/assets/tables.css?body=1" for 127.0.0.1 at 2014-11-19 15:48:04 -0600
+
+
+Started GET "/assets/manager/items.css?body=1" for 127.0.0.1 at 2014-11-19 15:48:04 -0600
+
+
+Started GET "/assets/tickets.css?body=1" for 127.0.0.1 at 2014-11-19 15:48:04 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-19 15:48:04 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-19 15:48:04 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-19 15:48:04 -0600
+
+
+Started GET "/assets/employees.js?body=1" for 127.0.0.1 at 2014-11-19 15:48:04 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-19 15:48:04 -0600
+
+
+Started GET "/assets/items.js?body=1" for 127.0.0.1 at 2014-11-19 15:48:04 -0600
+
+
+Started GET "/assets/manager/employees.js?body=1" for 127.0.0.1 at 2014-11-19 15:48:04 -0600
+
+
+Started GET "/assets/soon_to_be_sess.js?body=1" for 127.0.0.1 at 2014-11-19 15:48:04 -0600
+
+
+Started GET "/assets/manager/items.js?body=1" for 127.0.0.1 at 2014-11-19 15:48:04 -0600
+
+
+Started GET "/assets/tables.js?body=1" for 127.0.0.1 at 2014-11-19 15:48:04 -0600
+
+
+Started GET "/assets/tickets.js?body=1" for 127.0.0.1 at 2014-11-19 15:48:04 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-19 15:48:04 -0600
+
+
+Started GET "/signin" for 127.0.0.1 at 2014-11-19 15:48:11 -0600
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 80ms (Views: 79.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/signin" for 127.0.0.1 at 2014-11-19 15:48:47 -0600
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 97ms (Views: 97.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/items.css?body=1" for 127.0.0.1 at 2014-11-19 15:48:47 -0600
+
+
+Started GET "/assets/employees.css?body=1" for 127.0.0.1 at 2014-11-19 15:48:47 -0600
+
+
+Started GET "/assets/manager/employees.css?body=1" for 127.0.0.1 at 2014-11-19 15:48:47 -0600
+
+
+Started GET "/assets/tables.css?body=1" for 127.0.0.1 at 2014-11-19 15:48:47 -0600
+
+
+Started GET "/assets/manager/items.css?body=1" for 127.0.0.1 at 2014-11-19 15:48:47 -0600
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-11-19 15:48:47 -0600
+
+
+Started GET "/assets/tickets.css?body=1" for 127.0.0.1 at 2014-11-19 15:48:47 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-19 15:48:47 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-19 15:48:47 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-19 15:48:47 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-19 15:48:47 -0600
+
+
+Started GET "/assets/items.js?body=1" for 127.0.0.1 at 2014-11-19 15:48:47 -0600
+
+
+Started GET "/assets/employees.js?body=1" for 127.0.0.1 at 2014-11-19 15:48:47 -0600
+
+
+Started GET "/assets/manager/employees.js?body=1" for 127.0.0.1 at 2014-11-19 15:48:47 -0600
+
+
+Started GET "/assets/manager/items.js?body=1" for 127.0.0.1 at 2014-11-19 15:48:47 -0600
+
+
+Started GET "/assets/soon_to_be_sess.js?body=1" for 127.0.0.1 at 2014-11-19 15:48:47 -0600
+
+
+Started GET "/assets/tables.js?body=1" for 127.0.0.1 at 2014-11-19 15:48:47 -0600
+
+
+Started GET "/assets/tickets.js?body=1" for 127.0.0.1 at 2014-11-19 15:48:47 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-19 15:48:47 -0600
+
+
+Started GET "/signin" for 127.0.0.1 at 2014-11-19 15:49:45 -0600
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 99ms (Views: 98.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/employees.css?body=1" for 127.0.0.1 at 2014-11-19 15:49:45 -0600
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-11-19 15:49:45 -0600
+
+
+Started GET "/assets/manager/items.css?body=1" for 127.0.0.1 at 2014-11-19 15:49:45 -0600
+
+
+Started GET "/assets/items.css?body=1" for 127.0.0.1 at 2014-11-19 15:49:45 -0600
+
+
+Started GET "/assets/tickets.css?body=1" for 127.0.0.1 at 2014-11-19 15:49:45 -0600
+
+
+Started GET "/assets/manager/employees.css?body=1" for 127.0.0.1 at 2014-11-19 15:49:45 -0600
+
+
+Started GET "/assets/tables.css?body=1" for 127.0.0.1 at 2014-11-19 15:49:45 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-19 15:49:45 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-19 15:49:45 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-19 15:49:45 -0600
+
+
+Started GET "/assets/employees.js?body=1" for 127.0.0.1 at 2014-11-19 15:49:45 -0600
+
+
+Started GET "/assets/items.js?body=1" for 127.0.0.1 at 2014-11-19 15:49:45 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-19 15:49:45 -0600
+
+
+Started GET "/assets/manager/employees.js?body=1" for 127.0.0.1 at 2014-11-19 15:49:45 -0600
+
+
+Started GET "/assets/manager/items.js?body=1" for 127.0.0.1 at 2014-11-19 15:49:45 -0600
+
+
+Started GET "/assets/soon_to_be_sess.js?body=1" for 127.0.0.1 at 2014-11-19 15:49:45 -0600
+
+
+Started GET "/assets/tables.js?body=1" for 127.0.0.1 at 2014-11-19 15:49:45 -0600
+
+
+Started GET "/assets/tickets.js?body=1" for 127.0.0.1 at 2014-11-19 15:49:45 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-19 15:49:45 -0600
+
+
+Started GET "/signin" for 127.0.0.1 at 2014-11-19 15:49:47 -0600
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 84ms (Views: 83.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/signin" for 127.0.0.1 at 2014-11-19 15:49:55 -0600
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"UW+STKsWYu/wDk1m2qgFWLd+wuN7IfIKHR4YAzT26fk=", "signin"=>{"pin"=>"00"}, "commit"=>"Sign in"}
+  [1m[36mEmployee Load (0.2ms)[0m  [1mSELECT  "employees".* FROM "employees"  WHERE "employees"."pin" = '00'  ORDER BY "employees"."id" ASC LIMIT 1[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 2ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-19 15:49:55 -0600
+Processing by TablesController#index as HTML
+  [1m[35mTable Load (0.1ms)[0m  SELECT "tables".* FROM "tables"
+  Rendered tables/index.html.erb within layouts/application (0.4ms)
+  [1m[36mEmployee Load (0.1ms)[0m  [1mSELECT  "employees".* FROM "employees"  WHERE "employees"."id" = ? LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 87ms (Views: 86.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/employees.css?body=1" for 127.0.0.1 at 2014-11-19 15:49:55 -0600
+
+
+Started GET "/assets/manager/employees.css?body=1" for 127.0.0.1 at 2014-11-19 15:49:55 -0600
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-11-19 15:49:55 -0600
+
+
+Started GET "/assets/items.css?body=1" for 127.0.0.1 at 2014-11-19 15:49:55 -0600
+
+
+Started GET "/assets/manager/items.css?body=1" for 127.0.0.1 at 2014-11-19 15:49:55 -0600
+
+
+Started GET "/assets/tables.css?body=1" for 127.0.0.1 at 2014-11-19 15:49:55 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-19 15:49:55 -0600
+
+
+Started GET "/assets/tickets.css?body=1" for 127.0.0.1 at 2014-11-19 15:49:55 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-19 15:49:55 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-19 15:49:55 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-19 15:49:55 -0600
+
+
+Started GET "/assets/employees.js?body=1" for 127.0.0.1 at 2014-11-19 15:49:55 -0600
+
+
+Started GET "/assets/manager/items.js?body=1" for 127.0.0.1 at 2014-11-19 15:49:55 -0600
+
+
+Started GET "/assets/soon_to_be_sess.js?body=1" for 127.0.0.1 at 2014-11-19 15:49:55 -0600
+
+
+Started GET "/assets/manager/employees.js?body=1" for 127.0.0.1 at 2014-11-19 15:49:55 -0600
+
+
+Started GET "/assets/items.js?body=1" for 127.0.0.1 at 2014-11-19 15:49:55 -0600
+
+
+Started GET "/assets/tables.js?body=1" for 127.0.0.1 at 2014-11-19 15:49:55 -0600
+
+
+Started GET "/assets/tickets.js?body=1" for 127.0.0.1 at 2014-11-19 15:49:55 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-19 15:49:55 -0600
+
+
+Started GET "/manager" for 127.0.0.1 at 2014-11-19 15:50:00 -0600
+Processing by Manager::BaseController#index as HTML
+  [1m[35mEmployee Load (0.1ms)[0m  SELECT  "employees".* FROM "employees"  WHERE "employees"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered manager/base/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 86ms (Views: 84.2ms | ActiveRecord: 0.1ms)
+
+
+Started DELETE "/signout" for 127.0.0.1 at 2014-11-19 15:50:57 -0600
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"cLWo/wqtlUGyCY/JzjFd71rsR51uoFqfeLd4VbU01KM="}
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-19 15:50:57 -0600
+Processing by TablesController#index as HTML
+  [1m[36mTable Load (0.1ms)[0m  [1mSELECT "tables".* FROM "tables"[0m
+  Rendered tables/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 96ms (Views: 95.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/manager/employees.css?body=1" for 127.0.0.1 at 2014-11-19 15:50:58 -0600
+
+
+Started GET "/assets/manager/items.css?body=1" for 127.0.0.1 at 2014-11-19 15:50:58 -0600
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-11-19 15:50:58 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-19 15:50:58 -0600
+
+
+Started GET "/assets/tickets.css?body=1" for 127.0.0.1 at 2014-11-19 15:50:58 -0600
+
+
+Started GET "/assets/tables.css?body=1" for 127.0.0.1 at 2014-11-19 15:50:58 -0600
+
+
+Started GET "/assets/employees.css?body=1" for 127.0.0.1 at 2014-11-19 15:50:58 -0600
+
+
+Started GET "/assets/items.css?body=1" for 127.0.0.1 at 2014-11-19 15:50:58 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-19 15:50:58 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-19 15:50:58 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-19 15:50:58 -0600
+
+
+Started GET "/assets/employees.js?body=1" for 127.0.0.1 at 2014-11-19 15:50:58 -0600
+
+
+Started GET "/assets/items.js?body=1" for 127.0.0.1 at 2014-11-19 15:50:58 -0600
+
+
+Started GET "/assets/manager/employees.js?body=1" for 127.0.0.1 at 2014-11-19 15:50:58 -0600
+
+
+Started GET "/assets/manager/items.js?body=1" for 127.0.0.1 at 2014-11-19 15:50:58 -0600
+
+
+Started GET "/assets/soon_to_be_sess.js?body=1" for 127.0.0.1 at 2014-11-19 15:50:58 -0600
+
+
+Started GET "/assets/tickets.js?body=1" for 127.0.0.1 at 2014-11-19 15:50:58 -0600
+
+
+Started GET "/assets/tables.js?body=1" for 127.0.0.1 at 2014-11-19 15:50:58 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-19 15:50:58 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-19 15:52:29 -0600
+Processing by TablesController#index as HTML
+  [1m[35mTable Load (0.1ms)[0m  SELECT "tables".* FROM "tables"
+  Rendered tables/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 104ms (Views: 103.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/employees.css?body=1" for 127.0.0.1 at 2014-11-19 15:52:30 -0600
+
+
+Started GET "/assets/items.css?body=1" for 127.0.0.1 at 2014-11-19 15:52:30 -0600
+
+
+Started GET "/assets/manager/employees.css?body=1" for 127.0.0.1 at 2014-11-19 15:52:30 -0600
+
+
+Started GET "/assets/manager/items.css?body=1" for 127.0.0.1 at 2014-11-19 15:52:30 -0600
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-11-19 15:52:30 -0600
+
+
+Started GET "/assets/tables.css?body=1" for 127.0.0.1 at 2014-11-19 15:52:30 -0600
+
+
+Started GET "/assets/tickets.css?body=1" for 127.0.0.1 at 2014-11-19 15:52:30 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-19 15:52:30 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-19 15:52:30 -0600
+
+
+Started GET "/assets/employees.js?body=1" for 127.0.0.1 at 2014-11-19 15:52:30 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-19 15:52:30 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-19 15:52:30 -0600
+
+
+Started GET "/assets/items.js?body=1" for 127.0.0.1 at 2014-11-19 15:52:30 -0600
+
+
+Started GET "/assets/manager/items.js?body=1" for 127.0.0.1 at 2014-11-19 15:52:30 -0600
+
+
+Started GET "/assets/manager/employees.js?body=1" for 127.0.0.1 at 2014-11-19 15:52:30 -0600
+
+
+Started GET "/assets/soon_to_be_sess.js?body=1" for 127.0.0.1 at 2014-11-19 15:52:30 -0600
+
+
+Started GET "/assets/tables.js?body=1" for 127.0.0.1 at 2014-11-19 15:52:30 -0600
+
+
+Started GET "/assets/tickets.js?body=1" for 127.0.0.1 at 2014-11-19 15:52:30 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-19 15:52:30 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-19 15:52:31 -0600
+Processing by TablesController#index as HTML
+  [1m[36mTable Load (0.1ms)[0m  [1mSELECT "tables".* FROM "tables"[0m
+  Rendered tables/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 91ms (Views: 89.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/employees.css?body=1" for 127.0.0.1 at 2014-11-19 15:52:31 -0600
+
+
+Started GET "/assets/manager/items.css?body=1" for 127.0.0.1 at 2014-11-19 15:52:31 -0600
+
+
+Started GET "/assets/items.css?body=1" for 127.0.0.1 at 2014-11-19 15:52:31 -0600
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-11-19 15:52:31 -0600
+
+
+Started GET "/assets/manager/employees.css?body=1" for 127.0.0.1 at 2014-11-19 15:52:31 -0600
+
+
+Started GET "/assets/tables.css?body=1" for 127.0.0.1 at 2014-11-19 15:52:31 -0600
+
+
+Started GET "/assets/tickets.css?body=1" for 127.0.0.1 at 2014-11-19 15:52:31 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-19 15:52:31 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-19 15:52:31 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-19 15:52:31 -0600
+
+
+Started GET "/assets/employees.js?body=1" for 127.0.0.1 at 2014-11-19 15:52:31 -0600
+
+
+Started GET "/assets/items.js?body=1" for 127.0.0.1 at 2014-11-19 15:52:31 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-19 15:52:31 -0600
+
+
+Started GET "/assets/manager/employees.js?body=1" for 127.0.0.1 at 2014-11-19 15:52:31 -0600
+
+
+Started GET "/assets/manager/items.js?body=1" for 127.0.0.1 at 2014-11-19 15:52:31 -0600
+
+
+Started GET "/assets/tables.js?body=1" for 127.0.0.1 at 2014-11-19 15:52:31 -0600
+
+
+Started GET "/assets/soon_to_be_sess.js?body=1" for 127.0.0.1 at 2014-11-19 15:52:31 -0600
+
+
+Started GET "/assets/tickets.js?body=1" for 127.0.0.1 at 2014-11-19 15:52:31 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-19 15:52:31 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-19 15:52:31 -0600
+Processing by TablesController#index as HTML
+  [1m[35mTable Load (0.1ms)[0m  SELECT "tables".* FROM "tables"
+  Rendered tables/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 93ms (Views: 92.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/employees.css?body=1" for 127.0.0.1 at 2014-11-19 15:52:32 -0600
+
+
+Started GET "/assets/items.css?body=1" for 127.0.0.1 at 2014-11-19 15:52:32 -0600
+
+
+Started GET "/assets/tables.css?body=1" for 127.0.0.1 at 2014-11-19 15:52:32 -0600
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-11-19 15:52:32 -0600
+
+
+Started GET "/assets/manager/employees.css?body=1" for 127.0.0.1 at 2014-11-19 15:52:32 -0600
+
+
+Started GET "/assets/tickets.css?body=1" for 127.0.0.1 at 2014-11-19 15:52:32 -0600
+
+
+Started GET "/assets/manager/items.css?body=1" for 127.0.0.1 at 2014-11-19 15:52:32 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-19 15:52:32 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-19 15:52:32 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-19 15:52:32 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-19 15:52:32 -0600
+
+
+Started GET "/assets/employees.js?body=1" for 127.0.0.1 at 2014-11-19 15:52:32 -0600
+
+
+Started GET "/assets/items.js?body=1" for 127.0.0.1 at 2014-11-19 15:52:32 -0600
+
+
+Started GET "/assets/manager/employees.js?body=1" for 127.0.0.1 at 2014-11-19 15:52:32 -0600
+
+
+Started GET "/assets/manager/items.js?body=1" for 127.0.0.1 at 2014-11-19 15:52:32 -0600
+
+
+Started GET "/assets/soon_to_be_sess.js?body=1" for 127.0.0.1 at 2014-11-19 15:52:32 -0600
+
+
+Started GET "/assets/tables.js?body=1" for 127.0.0.1 at 2014-11-19 15:52:32 -0600
+
+
+Started GET "/assets/tickets.js?body=1" for 127.0.0.1 at 2014-11-19 15:52:32 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-19 15:52:32 -0600
+
+
+Started GET "/signin" for 127.0.0.1 at 2014-11-19 15:52:32 -0600
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 84ms (Views: 84.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/signin" for 127.0.0.1 at 2014-11-19 15:52:38 -0600
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"++TZ+414hHiDyxir1bQJ4F9DQ2c6UoQokBXr5Vx9R00=", "signin"=>{"pin"=>"00"}, "commit"=>"Sign in"}
+  [1m[36mEmployee Load (0.2ms)[0m  [1mSELECT  "employees".* FROM "employees"  WHERE "employees"."pin" = '00'  ORDER BY "employees"."id" ASC LIMIT 1[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-19 15:52:38 -0600
+Processing by TablesController#index as HTML
+  [1m[35mTable Load (0.1ms)[0m  SELECT "tables".* FROM "tables"
+  Rendered tables/index.html.erb within layouts/application (0.4ms)
+  [1m[36mEmployee Load (0.1ms)[0m  [1mSELECT  "employees".* FROM "employees"  WHERE "employees"."id" = ? LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 80ms (Views: 79.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/employees.css?body=1" for 127.0.0.1 at 2014-11-19 15:52:38 -0600
+
+
+Started GET "/assets/tables.css?body=1" for 127.0.0.1 at 2014-11-19 15:52:38 -0600
+
+
+Started GET "/assets/manager/items.css?body=1" for 127.0.0.1 at 2014-11-19 15:52:38 -0600
+
+
+Started GET "/assets/manager/employees.css?body=1" for 127.0.0.1 at 2014-11-19 15:52:38 -0600
+
+
+Started GET "/assets/tickets.css?body=1" for 127.0.0.1 at 2014-11-19 15:52:38 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-19 15:52:38 -0600
+
+
+Started GET "/assets/items.css?body=1" for 127.0.0.1 at 2014-11-19 15:52:38 -0600
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-11-19 15:52:38 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-19 15:52:38 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-19 15:52:38 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-19 15:52:38 -0600
+
+
+Started GET "/assets/employees.js?body=1" for 127.0.0.1 at 2014-11-19 15:52:38 -0600
+
+
+Started GET "/assets/items.js?body=1" for 127.0.0.1 at 2014-11-19 15:52:38 -0600
+
+
+Started GET "/assets/manager/items.js?body=1" for 127.0.0.1 at 2014-11-19 15:52:38 -0600
+
+
+Started GET "/assets/manager/employees.js?body=1" for 127.0.0.1 at 2014-11-19 15:52:38 -0600
+
+
+Started GET "/assets/tickets.js?body=1" for 127.0.0.1 at 2014-11-19 15:52:38 -0600
+
+
+Started GET "/assets/soon_to_be_sess.js?body=1" for 127.0.0.1 at 2014-11-19 15:52:38 -0600
+
+
+Started GET "/assets/tables.js?body=1" for 127.0.0.1 at 2014-11-19 15:52:38 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-19 15:52:38 -0600
+
+
+Started DELETE "/signout" for 127.0.0.1 at 2014-11-19 15:53:13 -0600
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"FTAxsqfIX7URJVG6UNWh+67TojlRZ9V7ccUCYE7Nu7c="}
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-19 15:53:13 -0600
+Processing by TablesController#index as HTML
+  [1m[35mTable Load (0.1ms)[0m  SELECT "tables".* FROM "tables"
+  Rendered tables/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 94ms (Views: 93.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/employees.css?body=1" for 127.0.0.1 at 2014-11-19 15:53:13 -0600
+
+
+Started GET "/assets/items.css?body=1" for 127.0.0.1 at 2014-11-19 15:53:13 -0600
+
+
+Started GET "/assets/tables.css?body=1" for 127.0.0.1 at 2014-11-19 15:53:13 -0600
+
+
+Started GET "/assets/manager/employees.css?body=1" for 127.0.0.1 at 2014-11-19 15:53:13 -0600
+
+
+Started GET "/assets/manager/items.css?body=1" for 127.0.0.1 at 2014-11-19 15:53:13 -0600
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-11-19 15:53:13 -0600
+
+
+Started GET "/assets/tickets.css?body=1" for 127.0.0.1 at 2014-11-19 15:53:13 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-19 15:53:13 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-19 15:53:13 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-19 15:53:13 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-19 15:53:13 -0600
+
+
+Started GET "/assets/employees.js?body=1" for 127.0.0.1 at 2014-11-19 15:53:13 -0600
+
+
+Started GET "/assets/items.js?body=1" for 127.0.0.1 at 2014-11-19 15:53:13 -0600
+
+
+Started GET "/assets/manager/employees.js?body=1" for 127.0.0.1 at 2014-11-19 15:53:13 -0600
+
+
+Started GET "/assets/manager/items.js?body=1" for 127.0.0.1 at 2014-11-19 15:53:13 -0600
+
+
+Started GET "/assets/soon_to_be_sess.js?body=1" for 127.0.0.1 at 2014-11-19 15:53:13 -0600
+
+
+Started GET "/assets/tables.js?body=1" for 127.0.0.1 at 2014-11-19 15:53:13 -0600
+
+
+Started GET "/assets/tickets.js?body=1" for 127.0.0.1 at 2014-11-19 15:53:13 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-19 15:53:13 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-19 15:53:17 -0600
+Processing by TablesController#index as HTML
+  [1m[36mTable Load (0.1ms)[0m  [1mSELECT "tables".* FROM "tables"[0m
+  Rendered tables/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 93ms (Views: 91.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/employees.css?body=1" for 127.0.0.1 at 2014-11-19 15:53:17 -0600
+
+
+Started GET "/assets/items.css?body=1" for 127.0.0.1 at 2014-11-19 15:53:17 -0600
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-11-19 15:53:17 -0600
+
+
+Started GET "/assets/tables.css?body=1" for 127.0.0.1 at 2014-11-19 15:53:17 -0600
+
+
+Started GET "/assets/manager/items.css?body=1" for 127.0.0.1 at 2014-11-19 15:53:17 -0600
+
+
+Started GET "/assets/manager/employees.css?body=1" for 127.0.0.1 at 2014-11-19 15:53:17 -0600
+
+
+Started GET "/assets/tickets.css?body=1" for 127.0.0.1 at 2014-11-19 15:53:17 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-19 15:53:17 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-19 15:53:17 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-19 15:53:17 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-19 15:53:17 -0600
+
+
+Started GET "/assets/employees.js?body=1" for 127.0.0.1 at 2014-11-19 15:53:17 -0600
+
+
+Started GET "/assets/items.js?body=1" for 127.0.0.1 at 2014-11-19 15:53:17 -0600
+
+
+Started GET "/assets/manager/employees.js?body=1" for 127.0.0.1 at 2014-11-19 15:53:17 -0600
+
+
+Started GET "/assets/soon_to_be_sess.js?body=1" for 127.0.0.1 at 2014-11-19 15:53:17 -0600
+
+
+Started GET "/assets/manager/items.js?body=1" for 127.0.0.1 at 2014-11-19 15:53:17 -0600
+
+
+Started GET "/assets/tables.js?body=1" for 127.0.0.1 at 2014-11-19 15:53:17 -0600
+
+
+Started GET "/assets/tickets.js?body=1" for 127.0.0.1 at 2014-11-19 15:53:17 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-19 15:53:17 -0600
+
+
+Started GET "/signin" for 127.0.0.1 at 2014-11-19 15:53:21 -0600
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 103ms (Views: 102.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/signin" for 127.0.0.1 at 2014-11-19 15:53:28 -0600
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 92ms (Views: 91.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/signin" for 127.0.0.1 at 2014-11-19 15:55:28 -0600
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 93ms (Views: 92.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/employees.css?body=1" for 127.0.0.1 at 2014-11-19 15:55:28 -0600
+
+
+Started GET "/assets/manager/items.css?body=1" for 127.0.0.1 at 2014-11-19 15:55:28 -0600
+
+
+Started GET "/assets/tables.css?body=1" for 127.0.0.1 at 2014-11-19 15:55:28 -0600
+
+
+Started GET "/assets/items.css?body=1" for 127.0.0.1 at 2014-11-19 15:55:28 -0600
+
+
+Started GET "/assets/manager/employees.css?body=1" for 127.0.0.1 at 2014-11-19 15:55:28 -0600
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-11-19 15:55:28 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-19 15:55:28 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-19 15:55:28 -0600
+
+
+Started GET "/assets/tickets.css?body=1" for 127.0.0.1 at 2014-11-19 15:55:28 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-19 15:55:28 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-19 15:55:28 -0600
+
+
+Started GET "/assets/employees.js?body=1" for 127.0.0.1 at 2014-11-19 15:55:28 -0600
+
+
+Started GET "/assets/items.js?body=1" for 127.0.0.1 at 2014-11-19 15:55:28 -0600
+
+
+Started GET "/assets/manager/items.js?body=1" for 127.0.0.1 at 2014-11-19 15:55:28 -0600
+
+
+Started GET "/assets/manager/employees.js?body=1" for 127.0.0.1 at 2014-11-19 15:55:28 -0600
+
+
+Started GET "/assets/soon_to_be_sess.js?body=1" for 127.0.0.1 at 2014-11-19 15:55:28 -0600
+
+
+Started GET "/assets/tables.js?body=1" for 127.0.0.1 at 2014-11-19 15:55:28 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-19 15:55:28 -0600
+
+
+Started GET "/assets/tickets.js?body=1" for 127.0.0.1 at 2014-11-19 15:55:28 -0600
+
+
+Started GET "/signin" for 127.0.0.1 at 2014-11-19 15:55:51 -0600
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 103ms (Views: 102.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/employees.css?body=1" for 127.0.0.1 at 2014-11-19 15:55:51 -0600
+
+
+Started GET "/assets/items.css?body=1" for 127.0.0.1 at 2014-11-19 15:55:51 -0600
+
+
+Started GET "/assets/manager/employees.css?body=1" for 127.0.0.1 at 2014-11-19 15:55:51 -0600
+
+
+Started GET "/assets/manager/items.css?body=1" for 127.0.0.1 at 2014-11-19 15:55:51 -0600
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-11-19 15:55:51 -0600
+
+
+Started GET "/assets/tables.css?body=1" for 127.0.0.1 at 2014-11-19 15:55:51 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-19 15:55:51 -0600
+
+
+Started GET "/assets/tickets.css?body=1" for 127.0.0.1 at 2014-11-19 15:55:51 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-19 15:55:51 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-19 15:55:51 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-19 15:55:51 -0600
+
+
+Started GET "/assets/employees.js?body=1" for 127.0.0.1 at 2014-11-19 15:55:51 -0600
+
+
+Started GET "/assets/items.js?body=1" for 127.0.0.1 at 2014-11-19 15:55:51 -0600
+
+
+Started GET "/assets/manager/employees.js?body=1" for 127.0.0.1 at 2014-11-19 15:55:51 -0600
+
+
+Started GET "/assets/tickets.js?body=1" for 127.0.0.1 at 2014-11-19 15:55:51 -0600
+
+
+Started GET "/assets/soon_to_be_sess.js?body=1" for 127.0.0.1 at 2014-11-19 15:55:51 -0600
+
+
+Started GET "/assets/tables.js?body=1" for 127.0.0.1 at 2014-11-19 15:55:51 -0600
+
+
+Started GET "/assets/manager/items.js?body=1" for 127.0.0.1 at 2014-11-19 15:55:51 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-19 15:55:51 -0600
+
+
+Started GET "/signin" for 127.0.0.1 at 2014-11-19 15:55:53 -0600
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 82ms (Views: 81.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/signin" for 127.0.0.1 at 2014-11-19 15:55:56 -0600
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 77ms (Views: 76.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/signin" for 127.0.0.1 at 2014-11-19 15:55:59 -0600
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"2HnDGkLAAb5x1f14FmPomIRV31u5t4aNkOVkYdTvvYg=", "signin"=>{"pin"=>""}, "commit"=>"Sign in"}
+  [1m[35mEmployee Load (0.2ms)[0m  SELECT  "employees".* FROM "employees"  WHERE "employees"."pin" = ''  ORDER BY "employees"."id" ASC LIMIT 1
+  Rendered sessions/new.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 85ms (Views: 83.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/employees.css?body=1" for 127.0.0.1 at 2014-11-19 15:56:00 -0600
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-11-19 15:56:00 -0600
+
+
+Started GET "/assets/tables.css?body=1" for 127.0.0.1 at 2014-11-19 15:56:00 -0600
+
+
+Started GET "/assets/manager/employees.css?body=1" for 127.0.0.1 at 2014-11-19 15:56:00 -0600
+
+
+Started GET "/assets/items.css?body=1" for 127.0.0.1 at 2014-11-19 15:56:00 -0600
+
+
+Started GET "/assets/manager/items.css?body=1" for 127.0.0.1 at 2014-11-19 15:56:00 -0600
+
+
+Started GET "/assets/tickets.css?body=1" for 127.0.0.1 at 2014-11-19 15:56:00 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-19 15:56:00 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-19 15:56:00 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-19 15:56:00 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-19 15:56:00 -0600
+
+
+Started GET "/assets/employees.js?body=1" for 127.0.0.1 at 2014-11-19 15:56:00 -0600
+
+
+Started GET "/assets/items.js?body=1" for 127.0.0.1 at 2014-11-19 15:56:00 -0600
+
+
+Started GET "/assets/manager/employees.js?body=1" for 127.0.0.1 at 2014-11-19 15:56:00 -0600
+
+
+Started GET "/assets/soon_to_be_sess.js?body=1" for 127.0.0.1 at 2014-11-19 15:56:00 -0600
+
+
+Started GET "/assets/manager/items.js?body=1" for 127.0.0.1 at 2014-11-19 15:56:00 -0600
+
+
+Started GET "/assets/tables.js?body=1" for 127.0.0.1 at 2014-11-19 15:56:00 -0600
+
+
+Started GET "/assets/tickets.js?body=1" for 127.0.0.1 at 2014-11-19 15:56:00 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-19 15:56:00 -0600
+
+
+Started GET "/signin" for 127.0.0.1 at 2014-11-19 15:56:04 -0600
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 84ms (Views: 83.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/employees.css?body=1" for 127.0.0.1 at 2014-11-19 15:56:04 -0600
+
+
+Started GET "/assets/items.css?body=1" for 127.0.0.1 at 2014-11-19 15:56:04 -0600
+
+
+Started GET "/assets/manager/items.css?body=1" for 127.0.0.1 at 2014-11-19 15:56:04 -0600
+
+
+Started GET "/assets/manager/employees.css?body=1" for 127.0.0.1 at 2014-11-19 15:56:04 -0600
+
+
+Started GET "/assets/tickets.css?body=1" for 127.0.0.1 at 2014-11-19 15:56:04 -0600
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-11-19 15:56:04 -0600
+
+
+Started GET "/assets/tables.css?body=1" for 127.0.0.1 at 2014-11-19 15:56:04 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-19 15:56:04 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-19 15:56:04 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-19 15:56:04 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-19 15:56:04 -0600
+
+
+Started GET "/assets/employees.js?body=1" for 127.0.0.1 at 2014-11-19 15:56:04 -0600
+
+
+Started GET "/assets/items.js?body=1" for 127.0.0.1 at 2014-11-19 15:56:04 -0600
+
+
+Started GET "/assets/manager/employees.js?body=1" for 127.0.0.1 at 2014-11-19 15:56:04 -0600
+
+
+Started GET "/assets/soon_to_be_sess.js?body=1" for 127.0.0.1 at 2014-11-19 15:56:04 -0600
+
+
+Started GET "/assets/tables.js?body=1" for 127.0.0.1 at 2014-11-19 15:56:04 -0600
+
+
+Started GET "/assets/manager/items.js?body=1" for 127.0.0.1 at 2014-11-19 15:56:04 -0600
+
+
+Started GET "/assets/tickets.js?body=1" for 127.0.0.1 at 2014-11-19 15:56:04 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-19 15:56:04 -0600
+
+
+Started POST "/signin" for 127.0.0.1 at 2014-11-19 15:56:07 -0600
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"bI19EXkwyEoeWguIdHfXw8EVlL/0eHgnR0g+u9A5sXw=", "signin"=>{"pin"=>"11"}, "commit"=>"Sign in"}
+  [1m[36mEmployee Load (0.2ms)[0m  [1mSELECT  "employees".* FROM "employees"  WHERE "employees"."pin" = '11'  ORDER BY "employees"."id" ASC LIMIT 1[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 2ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-19 15:56:07 -0600
+Processing by TablesController#index as HTML
+  [1m[35mTable Load (0.1ms)[0m  SELECT "tables".* FROM "tables"
+  Rendered tables/index.html.erb within layouts/application (0.4ms)
+  [1m[36mEmployee Load (0.1ms)[0m  [1mSELECT  "employees".* FROM "employees"  WHERE "employees"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 88ms (Views: 87.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/items.css?body=1" for 127.0.0.1 at 2014-11-19 15:56:07 -0600
+
+
+Started GET "/assets/tables.css?body=1" for 127.0.0.1 at 2014-11-19 15:56:07 -0600
+
+
+Started GET "/assets/manager/items.css?body=1" for 127.0.0.1 at 2014-11-19 15:56:07 -0600
+
+
+Started GET "/assets/manager/employees.css?body=1" for 127.0.0.1 at 2014-11-19 15:56:07 -0600
+
+
+Started GET "/assets/employees.css?body=1" for 127.0.0.1 at 2014-11-19 15:56:07 -0600
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-11-19 15:56:07 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-19 15:56:07 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-19 15:56:07 -0600
+
+
+Started GET "/assets/tickets.css?body=1" for 127.0.0.1 at 2014-11-19 15:56:07 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-19 15:56:07 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-19 15:56:07 -0600
+
+
+Started GET "/assets/employees.js?body=1" for 127.0.0.1 at 2014-11-19 15:56:07 -0600
+
+
+Started GET "/assets/items.js?body=1" for 127.0.0.1 at 2014-11-19 15:56:07 -0600
+
+
+Started GET "/assets/manager/employees.js?body=1" for 127.0.0.1 at 2014-11-19 15:56:07 -0600
+
+
+Started GET "/assets/manager/items.js?body=1" for 127.0.0.1 at 2014-11-19 15:56:07 -0600
+
+
+Started GET "/assets/soon_to_be_sess.js?body=1" for 127.0.0.1 at 2014-11-19 15:56:07 -0600
+
+
+Started GET "/assets/tables.js?body=1" for 127.0.0.1 at 2014-11-19 15:56:07 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-19 15:56:07 -0600
+
+
+Started GET "/assets/tickets.js?body=1" for 127.0.0.1 at 2014-11-19 15:56:07 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-19 15:56:54 -0600
+Processing by TablesController#index as HTML
+  [1m[35mTable Load (0.1ms)[0m  SELECT "tables".* FROM "tables"
+  Rendered tables/index.html.erb within layouts/application (0.5ms)
+  [1m[36mEmployee Load (0.1ms)[0m  [1mSELECT  "employees".* FROM "employees"  WHERE "employees"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 95ms (Views: 94.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/employees.css?body=1" for 127.0.0.1 at 2014-11-19 15:56:54 -0600
+
+
+Started GET "/assets/tickets.css?body=1" for 127.0.0.1 at 2014-11-19 15:56:54 -0600
+
+
+Started GET "/assets/items.css?body=1" for 127.0.0.1 at 2014-11-19 15:56:54 -0600
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-11-19 15:56:54 -0600
+
+
+Started GET "/assets/tables.css?body=1" for 127.0.0.1 at 2014-11-19 15:56:54 -0600
+
+
+Started GET "/assets/manager/employees.css?body=1" for 127.0.0.1 at 2014-11-19 15:56:54 -0600
+
+
+Started GET "/assets/manager/items.css?body=1" for 127.0.0.1 at 2014-11-19 15:56:54 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-19 15:56:54 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-19 15:56:54 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-19 15:56:54 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-19 15:56:54 -0600
+
+
+Started GET "/assets/manager/items.js?body=1" for 127.0.0.1 at 2014-11-19 15:56:54 -0600
+
+
+Started GET "/assets/items.js?body=1" for 127.0.0.1 at 2014-11-19 15:56:54 -0600
+
+
+Started GET "/assets/employees.js?body=1" for 127.0.0.1 at 2014-11-19 15:56:54 -0600
+
+
+Started GET "/assets/soon_to_be_sess.js?body=1" for 127.0.0.1 at 2014-11-19 15:56:54 -0600
+
+
+Started GET "/assets/manager/employees.js?body=1" for 127.0.0.1 at 2014-11-19 15:56:54 -0600
+
+
+Started GET "/assets/tickets.js?body=1" for 127.0.0.1 at 2014-11-19 15:56:54 -0600
+
+
+Started GET "/assets/tables.js?body=1" for 127.0.0.1 at 2014-11-19 15:56:54 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-19 15:56:54 -0600
+
+
+Started DELETE "/signout" for 127.0.0.1 at 2014-11-19 15:57:13 -0600
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"gm53ZQEGu8FqMpDulTAlurEMbniXdeEzfM7Gjfv+btM="}
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-19 15:57:13 -0600
+Processing by TablesController#index as HTML
+  [1m[35mTable Load (0.2ms)[0m  SELECT "tables".* FROM "tables"
+  Rendered tables/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 107ms (Views: 105.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/employees.css?body=1" for 127.0.0.1 at 2014-11-19 15:57:13 -0600
+
+
+Started GET "/assets/items.css?body=1" for 127.0.0.1 at 2014-11-19 15:57:13 -0600
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-11-19 15:57:13 -0600
+
+
+Started GET "/assets/tables.css?body=1" for 127.0.0.1 at 2014-11-19 15:57:13 -0600
+
+
+Started GET "/assets/manager/employees.css?body=1" for 127.0.0.1 at 2014-11-19 15:57:13 -0600
+
+
+Started GET "/assets/manager/items.css?body=1" for 127.0.0.1 at 2014-11-19 15:57:13 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-19 15:57:13 -0600
+
+
+Started GET "/assets/tickets.css?body=1" for 127.0.0.1 at 2014-11-19 15:57:13 -0600
+
+
+Started GET "/assets/items.js?body=1" for 127.0.0.1 at 2014-11-19 15:57:13 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-19 15:57:13 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-19 15:57:13 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-19 15:57:13 -0600
+
+
+Started GET "/assets/manager/employees.js?body=1" for 127.0.0.1 at 2014-11-19 15:57:13 -0600
+
+
+Started GET "/assets/employees.js?body=1" for 127.0.0.1 at 2014-11-19 15:57:13 -0600
+
+
+Started GET "/assets/manager/items.js?body=1" for 127.0.0.1 at 2014-11-19 15:57:13 -0600
+
+
+Started GET "/assets/soon_to_be_sess.js?body=1" for 127.0.0.1 at 2014-11-19 15:57:13 -0600
+
+
+Started GET "/assets/tables.js?body=1" for 127.0.0.1 at 2014-11-19 15:57:13 -0600
+
+
+Started GET "/assets/tickets.js?body=1" for 127.0.0.1 at 2014-11-19 15:57:13 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-19 15:57:13 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-19 15:58:55 -0600
+Processing by TablesController#index as HTML
+  [1m[36mTable Load (0.2ms)[0m  [1mSELECT "tables".* FROM "tables"[0m
+  Rendered tables/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 102ms (Views: 101.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/items.css?body=1" for 127.0.0.1 at 2014-11-19 15:58:55 -0600
+
+
+Started GET "/assets/tables.css?body=1" for 127.0.0.1 at 2014-11-19 15:58:55 -0600
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-11-19 15:58:55 -0600
+
+
+Started GET "/assets/employees.css?body=1" for 127.0.0.1 at 2014-11-19 15:58:55 -0600
+
+
+Started GET "/assets/manager/items.css?body=1" for 127.0.0.1 at 2014-11-19 15:58:55 -0600
+
+
+Started GET "/assets/manager/employees.css?body=1" for 127.0.0.1 at 2014-11-19 15:58:55 -0600
+
+
+Started GET "/assets/tickets.css?body=1" for 127.0.0.1 at 2014-11-19 15:58:55 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-19 15:58:55 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-19 15:58:55 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-19 15:58:55 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-19 15:58:55 -0600
+
+
+Started GET "/assets/employees.js?body=1" for 127.0.0.1 at 2014-11-19 15:58:55 -0600
+
+
+Started GET "/assets/items.js?body=1" for 127.0.0.1 at 2014-11-19 15:58:55 -0600
+
+
+Started GET "/assets/tickets.js?body=1" for 127.0.0.1 at 2014-11-19 15:58:55 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-19 15:58:55 -0600
+
+
+Started GET "/assets/manager/items.js?body=1" for 127.0.0.1 at 2014-11-19 15:58:55 -0600
+
+
+Started GET "/assets/manager/employees.js?body=1" for 127.0.0.1 at 2014-11-19 15:58:55 -0600
+
+
+Started GET "/assets/soon_to_be_sess.js?body=1" for 127.0.0.1 at 2014-11-19 15:58:55 -0600
+
+
+Started GET "/assets/tables.js?body=1" for 127.0.0.1 at 2014-11-19 15:58:55 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-19 15:59:41 -0600
+Processing by TablesController#index as HTML
+  [1m[35mTable Load (0.1ms)[0m  SELECT "tables".* FROM "tables"
+  Rendered tables/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 99ms (Views: 98.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/items.css?body=1" for 127.0.0.1 at 2014-11-19 15:59:41 -0600
+
+
+Started GET "/assets/manager/items.css?body=1" for 127.0.0.1 at 2014-11-19 15:59:41 -0600
+
+
+Started GET "/assets/tables.css?body=1" for 127.0.0.1 at 2014-11-19 15:59:41 -0600
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-11-19 15:59:41 -0600
+
+
+Started GET "/assets/manager/employees.css?body=1" for 127.0.0.1 at 2014-11-19 15:59:41 -0600
+
+
+Started GET "/assets/employees.css?body=1" for 127.0.0.1 at 2014-11-19 15:59:41 -0600
+
+
+Started GET "/assets/tickets.css?body=1" for 127.0.0.1 at 2014-11-19 15:59:41 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-19 15:59:41 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-19 15:59:41 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-19 15:59:41 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-19 15:59:41 -0600
+
+
+Started GET "/assets/employees.js?body=1" for 127.0.0.1 at 2014-11-19 15:59:41 -0600
+
+
+Started GET "/assets/items.js?body=1" for 127.0.0.1 at 2014-11-19 15:59:41 -0600
+
+
+Started GET "/assets/manager/employees.js?body=1" for 127.0.0.1 at 2014-11-19 15:59:41 -0600
+
+
+Started GET "/assets/manager/items.js?body=1" for 127.0.0.1 at 2014-11-19 15:59:41 -0600
+
+
+Started GET "/assets/tables.js?body=1" for 127.0.0.1 at 2014-11-19 15:59:41 -0600
+
+
+Started GET "/assets/soon_to_be_sess.js?body=1" for 127.0.0.1 at 2014-11-19 15:59:41 -0600
+
+
+Started GET "/assets/tickets.js?body=1" for 127.0.0.1 at 2014-11-19 15:59:41 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-19 15:59:41 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-19 15:59:42 -0600
+Processing by TablesController#index as HTML
+  [1m[36mTable Load (0.1ms)[0m  [1mSELECT "tables".* FROM "tables"[0m
+  Rendered tables/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 86ms (Views: 84.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/employees.css?body=1" for 127.0.0.1 at 2014-11-19 15:59:42 -0600
+
+
+Started GET "/assets/manager/items.css?body=1" for 127.0.0.1 at 2014-11-19 15:59:42 -0600
+
+
+Started GET "/assets/manager/employees.css?body=1" for 127.0.0.1 at 2014-11-19 15:59:42 -0600
+
+
+Started GET "/assets/tables.css?body=1" for 127.0.0.1 at 2014-11-19 15:59:42 -0600
+
+
+Started GET "/assets/tickets.css?body=1" for 127.0.0.1 at 2014-11-19 15:59:42 -0600
+
+
+Started GET "/assets/items.css?body=1" for 127.0.0.1 at 2014-11-19 15:59:42 -0600
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-11-19 15:59:42 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-19 15:59:42 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-19 15:59:42 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-19 15:59:42 -0600
+
+
+Started GET "/assets/employees.js?body=1" for 127.0.0.1 at 2014-11-19 15:59:42 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-19 15:59:42 -0600
+
+
+Started GET "/assets/items.js?body=1" for 127.0.0.1 at 2014-11-19 15:59:42 -0600
+
+
+Started GET "/assets/manager/employees.js?body=1" for 127.0.0.1 at 2014-11-19 15:59:42 -0600
+
+
+Started GET "/assets/manager/items.js?body=1" for 127.0.0.1 at 2014-11-19 15:59:42 -0600
+
+
+Started GET "/assets/soon_to_be_sess.js?body=1" for 127.0.0.1 at 2014-11-19 15:59:42 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-19 15:59:42 -0600
+
+
+Started GET "/assets/tickets.js?body=1" for 127.0.0.1 at 2014-11-19 15:59:42 -0600
+
+
+Started GET "/assets/tables.js?body=1" for 127.0.0.1 at 2014-11-19 15:59:42 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-19 16:00:21 -0600
+Processing by TablesController#index as HTML
+  [1m[35mTable Load (0.2ms)[0m  SELECT "tables".* FROM "tables"
+  Rendered tables/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 100ms (Views: 99.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/employees.css?body=1" for 127.0.0.1 at 2014-11-19 16:00:22 -0600
+
+
+Started GET "/assets/items.css?body=1" for 127.0.0.1 at 2014-11-19 16:00:22 -0600
+
+
+Started GET "/assets/manager/employees.css?body=1" for 127.0.0.1 at 2014-11-19 16:00:22 -0600
+
+
+Started GET "/assets/manager/items.css?body=1" for 127.0.0.1 at 2014-11-19 16:00:22 -0600
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-11-19 16:00:22 -0600
+
+
+Started GET "/assets/tables.css?body=1" for 127.0.0.1 at 2014-11-19 16:00:22 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-19 16:00:22 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-19 16:00:22 -0600
+
+
+Started GET "/assets/tickets.css?body=1" for 127.0.0.1 at 2014-11-19 16:00:22 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-19 16:00:22 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-19 16:00:22 -0600
+
+
+Started GET "/assets/employees.js?body=1" for 127.0.0.1 at 2014-11-19 16:00:22 -0600
+
+
+Started GET "/assets/items.js?body=1" for 127.0.0.1 at 2014-11-19 16:00:22 -0600
+
+
+Started GET "/assets/manager/employees.js?body=1" for 127.0.0.1 at 2014-11-19 16:00:22 -0600
+
+
+Started GET "/assets/soon_to_be_sess.js?body=1" for 127.0.0.1 at 2014-11-19 16:00:22 -0600
+
+
+Started GET "/assets/tickets.js?body=1" for 127.0.0.1 at 2014-11-19 16:00:22 -0600
+
+
+Started GET "/assets/tables.js?body=1" for 127.0.0.1 at 2014-11-19 16:00:22 -0600
+
+
+Started GET "/assets/manager/items.js?body=1" for 127.0.0.1 at 2014-11-19 16:00:22 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-19 16:00:22 -0600
+
+
+Started GET "/signin" for 127.0.0.1 at 2014-11-19 16:00:24 -0600
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 103ms (Views: 102.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/signin" for 127.0.0.1 at 2014-11-19 16:00:26 -0600
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Nao9ZWo5lR+M+Sptkt+/ryYMEiRUz1qxt/DfoHBk7TE=", "signin"=>{"pin"=>"00"}, "commit"=>"Sign in"}
+  [1m[36mEmployee Load (0.2ms)[0m  [1mSELECT  "employees".* FROM "employees"  WHERE "employees"."pin" = '00'  ORDER BY "employees"."id" ASC LIMIT 1[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-19 16:00:26 -0600
+Processing by TablesController#index as HTML
+  [1m[35mTable Load (0.1ms)[0m  SELECT "tables".* FROM "tables"
+  Rendered tables/index.html.erb within layouts/application (0.5ms)
+  [1m[36mEmployee Load (0.1ms)[0m  [1mSELECT  "employees".* FROM "employees"  WHERE "employees"."id" = ? LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 96ms (Views: 95.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/employees.css?body=1" for 127.0.0.1 at 2014-11-19 16:00:27 -0600
+
+
+Started GET "/assets/manager/employees.css?body=1" for 127.0.0.1 at 2014-11-19 16:00:27 -0600
+
+
+Started GET "/assets/items.css?body=1" for 127.0.0.1 at 2014-11-19 16:00:27 -0600
+
+
+Started GET "/assets/manager/items.css?body=1" for 127.0.0.1 at 2014-11-19 16:00:27 -0600
+
+
+Started GET "/assets/tables.css?body=1" for 127.0.0.1 at 2014-11-19 16:00:27 -0600
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-11-19 16:00:27 -0600
+
+
+Started GET "/assets/tickets.css?body=1" for 127.0.0.1 at 2014-11-19 16:00:27 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-19 16:00:27 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-19 16:00:27 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-19 16:00:27 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-19 16:00:27 -0600
+
+
+Started GET "/assets/employees.js?body=1" for 127.0.0.1 at 2014-11-19 16:00:27 -0600
+
+
+Started GET "/assets/items.js?body=1" for 127.0.0.1 at 2014-11-19 16:00:27 -0600
+
+
+Started GET "/assets/manager/employees.js?body=1" for 127.0.0.1 at 2014-11-19 16:00:27 -0600
+
+
+Started GET "/assets/manager/items.js?body=1" for 127.0.0.1 at 2014-11-19 16:00:27 -0600
+
+
+Started GET "/assets/soon_to_be_sess.js?body=1" for 127.0.0.1 at 2014-11-19 16:00:27 -0600
+
+
+Started GET "/assets/tickets.js?body=1" for 127.0.0.1 at 2014-11-19 16:00:27 -0600
+
+
+Started GET "/assets/tables.js?body=1" for 127.0.0.1 at 2014-11-19 16:00:27 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-19 16:00:27 -0600
+
+
+Started GET "/manager" for 127.0.0.1 at 2014-11-19 16:00:33 -0600
+Processing by Manager::BaseController#index as HTML
+  [1m[35mEmployee Load (0.1ms)[0m  SELECT  "employees".* FROM "employees"  WHERE "employees"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered manager/base/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 85ms (Views: 84.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tables" for 127.0.0.1 at 2014-11-19 16:00:36 -0600
+Processing by TablesController#index as HTML
+  [1m[36mTable Load (0.1ms)[0m  [1mSELECT "tables".* FROM "tables"[0m
+  Rendered tables/index.html.erb within layouts/application (0.4ms)
+  [1m[35mEmployee Load (0.1ms)[0m  SELECT  "employees".* FROM "employees"  WHERE "employees"."id" = ? LIMIT 1  [["id", 2]]
+Completed 200 OK in 82ms (Views: 81.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/manager" for 127.0.0.1 at 2014-11-19 16:00:37 -0600
+Processing by Manager::BaseController#index as HTML
+  [1m[36mEmployee Load (0.1ms)[0m  [1mSELECT  "employees".* FROM "employees"  WHERE "employees"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered manager/base/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 83ms (Views: 82.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/manager/employees" for 127.0.0.1 at 2014-11-19 16:00:38 -0600
+Processing by Manager::EmployeesController#index as HTML
+  [1m[35mEmployee Load (0.1ms)[0m  SELECT  "employees".* FROM "employees"  WHERE "employees"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mEmployee Load (0.2ms)[0m  [1mSELECT "employees".* FROM "employees"   ORDER BY "employees"."name" ASC[0m
+  Rendered manager/employees/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 90ms (Views: 88.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/manager/employees/new" for 127.0.0.1 at 2014-11-19 16:00:53 -0600
+Processing by Manager::EmployeesController#new as HTML
+  [1m[35mEmployee Load (0.2ms)[0m  SELECT  "employees".* FROM "employees"  WHERE "employees"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered manager/employees/new.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 86ms (Views: 84.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/manager" for 127.0.0.1 at 2014-11-19 16:00:55 -0600
+Processing by Manager::BaseController#index as HTML
+  [1m[36mEmployee Load (0.1ms)[0m  [1mSELECT  "employees".* FROM "employees"  WHERE "employees"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered manager/base/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 84ms (Views: 83.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/manager/employees" for 127.0.0.1 at 2014-11-19 16:00:56 -0600
+Processing by Manager::EmployeesController#index as HTML
+  [1m[35mEmployee Load (0.2ms)[0m  SELECT  "employees".* FROM "employees"  WHERE "employees"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mEmployee Load (0.1ms)[0m  [1mSELECT "employees".* FROM "employees"   ORDER BY "employees"."name" ASC[0m
+  Rendered manager/employees/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 85ms (Views: 83.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/manager/employees/1" for 127.0.0.1 at 2014-11-19 16:00:57 -0600
+Processing by Manager::EmployeesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mEmployee Load (0.1ms)[0m  SELECT  "employees".* FROM "employees"  WHERE "employees"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mEmployee Load (0.1ms)[0m  [1mSELECT  "employees".* FROM "employees"  WHERE "employees"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered manager/employees/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 87ms (Views: 85.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/manager" for 127.0.0.1 at 2014-11-19 16:01:01 -0600
+Processing by Manager::BaseController#index as HTML
+  [1m[35mEmployee Load (0.1ms)[0m  SELECT  "employees".* FROM "employees"  WHERE "employees"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered manager/base/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 82ms (Views: 80.8ms | ActiveRecord: 0.1ms)
+
+
+Started DELETE "/signout" for 127.0.0.1 at 2014-11-19 16:01:05 -0600
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"TL4Ai8KIohvpQ8BgEmaJsyHYe6pctue5rTQ4tafp4aY="}
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-19 16:01:05 -0600
+Processing by TablesController#index as HTML
+  [1m[36mTable Load (0.1ms)[0m  [1mSELECT "tables".* FROM "tables"[0m
+  Rendered tables/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 83ms (Views: 82.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/employees.css?body=1" for 127.0.0.1 at 2014-11-19 16:01:05 -0600
+
+
+Started GET "/assets/items.css?body=1" for 127.0.0.1 at 2014-11-19 16:01:05 -0600
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-11-19 16:01:05 -0600
+
+
+Started GET "/assets/manager/employees.css?body=1" for 127.0.0.1 at 2014-11-19 16:01:05 -0600
+
+
+Started GET "/assets/manager/items.css?body=1" for 127.0.0.1 at 2014-11-19 16:01:05 -0600
+
+
+Started GET "/assets/tables.css?body=1" for 127.0.0.1 at 2014-11-19 16:01:05 -0600
+
+
+Started GET "/assets/tickets.css?body=1" for 127.0.0.1 at 2014-11-19 16:01:05 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-19 16:01:05 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-19 16:01:05 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-19 16:01:05 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-19 16:01:05 -0600
+
+
+Started GET "/assets/employees.js?body=1" for 127.0.0.1 at 2014-11-19 16:01:06 -0600
+
+
+Started GET "/assets/items.js?body=1" for 127.0.0.1 at 2014-11-19 16:01:06 -0600
+
+
+Started GET "/assets/soon_to_be_sess.js?body=1" for 127.0.0.1 at 2014-11-19 16:01:06 -0600
+
+
+Started GET "/assets/manager/items.js?body=1" for 127.0.0.1 at 2014-11-19 16:01:06 -0600
+
+
+Started GET "/assets/manager/employees.js?body=1" for 127.0.0.1 at 2014-11-19 16:01:06 -0600
+
+
+Started GET "/assets/tables.js?body=1" for 127.0.0.1 at 2014-11-19 16:01:06 -0600
+
+
+Started GET "/assets/tickets.js?body=1" for 127.0.0.1 at 2014-11-19 16:01:06 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-19 16:01:06 -0600
+
+
+Started GET "/signin" for 127.0.0.1 at 2014-11-19 16:01:22 -0600
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 92ms (Views: 91.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/signin" for 127.0.0.1 at 2014-11-19 16:01:30 -0600
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 87ms (Views: 85.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/signin" for 127.0.0.1 at 2014-11-19 16:02:43 -0600
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 95ms (Views: 94.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/signin" for 127.0.0.1 at 2014-11-19 16:03:29 -0600
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 100ms (Views: 99.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/employees.css?body=1" for 127.0.0.1 at 2014-11-19 16:03:29 -0600
+
+
+Started GET "/assets/items.css?body=1" for 127.0.0.1 at 2014-11-19 16:03:29 -0600
+
+
+Started GET "/assets/manager/items.css?body=1" for 127.0.0.1 at 2014-11-19 16:03:29 -0600
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-11-19 16:03:29 -0600
+
+
+Started GET "/assets/manager/employees.css?body=1" for 127.0.0.1 at 2014-11-19 16:03:29 -0600
+
+
+Started GET "/assets/tickets.css?body=1" for 127.0.0.1 at 2014-11-19 16:03:29 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-19 16:03:29 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-19 16:03:29 -0600
+
+
+Started GET "/assets/tables.css?body=1" for 127.0.0.1 at 2014-11-19 16:03:29 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-19 16:03:29 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-19 16:03:29 -0600
+
+
+Started GET "/assets/employees.js?body=1" for 127.0.0.1 at 2014-11-19 16:03:29 -0600
+
+
+Started GET "/assets/items.js?body=1" for 127.0.0.1 at 2014-11-19 16:03:29 -0600
+
+
+Started GET "/assets/manager/employees.js?body=1" for 127.0.0.1 at 2014-11-19 16:03:29 -0600
+
+
+Started GET "/assets/manager/items.js?body=1" for 127.0.0.1 at 2014-11-19 16:03:29 -0600
+
+
+Started GET "/assets/soon_to_be_sess.js?body=1" for 127.0.0.1 at 2014-11-19 16:03:29 -0600
+
+
+Started GET "/assets/tables.js?body=1" for 127.0.0.1 at 2014-11-19 16:03:29 -0600
+
+
+Started GET "/assets/tickets.js?body=1" for 127.0.0.1 at 2014-11-19 16:03:29 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-19 16:03:29 -0600
+
+
+Started GET "/signin" for 127.0.0.1 at 2014-11-19 16:03:37 -0600
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 112ms (Views: 111.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/employees.css?body=1" for 127.0.0.1 at 2014-11-19 16:03:37 -0600
+
+
+Started GET "/assets/manager/items.css?body=1" for 127.0.0.1 at 2014-11-19 16:03:37 -0600
+
+
+Started GET "/assets/items.css?body=1" for 127.0.0.1 at 2014-11-19 16:03:37 -0600
+
+
+Started GET "/assets/tables.css?body=1" for 127.0.0.1 at 2014-11-19 16:03:37 -0600
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-11-19 16:03:37 -0600
+
+
+Started GET "/assets/manager/employees.css?body=1" for 127.0.0.1 at 2014-11-19 16:03:37 -0600
+
+
+Started GET "/assets/tickets.css?body=1" for 127.0.0.1 at 2014-11-19 16:03:37 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-19 16:03:37 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-19 16:03:37 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-19 16:03:37 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-19 16:03:37 -0600
+
+
+Started GET "/assets/employees.js?body=1" for 127.0.0.1 at 2014-11-19 16:03:37 -0600
+
+
+Started GET "/assets/items.js?body=1" for 127.0.0.1 at 2014-11-19 16:03:37 -0600
+
+
+Started GET "/assets/manager/employees.js?body=1" for 127.0.0.1 at 2014-11-19 16:03:37 -0600
+
+
+Started GET "/assets/manager/items.js?body=1" for 127.0.0.1 at 2014-11-19 16:03:37 -0600
+
+
+Started GET "/assets/soon_to_be_sess.js?body=1" for 127.0.0.1 at 2014-11-19 16:03:37 -0600
+
+
+Started GET "/assets/tables.js?body=1" for 127.0.0.1 at 2014-11-19 16:03:37 -0600
+
+
+Started GET "/assets/tickets.js?body=1" for 127.0.0.1 at 2014-11-19 16:03:37 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-19 16:03:37 -0600
+
+
+Started GET "/signin" for 127.0.0.1 at 2014-11-19 16:03:39 -0600
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 85ms (Views: 84.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/signin" for 127.0.0.1 at 2014-11-19 16:03:42 -0600
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"q1CU3uLk2dcL5LqvlvMRGuIg/VejsTYGabEYoUv9adA=", "signin"=>{"pin"=>"00"}, "commit"=>"Sign in"}
+  [1m[35mEmployee Load (0.2ms)[0m  SELECT  "employees".* FROM "employees"  WHERE "employees"."pin" = '00'  ORDER BY "employees"."id" ASC LIMIT 1
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-19 16:03:42 -0600
+Processing by TablesController#index as HTML
+  [1m[36mTable Load (0.1ms)[0m  [1mSELECT "tables".* FROM "tables"[0m
+  Rendered tables/index.html.erb within layouts/application (0.4ms)
+  [1m[35mEmployee Load (0.1ms)[0m  SELECT  "employees".* FROM "employees"  WHERE "employees"."id" = ? LIMIT 1  [["id", 2]]
+Completed 200 OK in 84ms (Views: 83.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/items.css?body=1" for 127.0.0.1 at 2014-11-19 16:03:42 -0600
+
+
+Started GET "/assets/employees.css?body=1" for 127.0.0.1 at 2014-11-19 16:03:42 -0600
+
+
+Started GET "/assets/tickets.css?body=1" for 127.0.0.1 at 2014-11-19 16:03:42 -0600
+
+
+Started GET "/assets/manager/items.css?body=1" for 127.0.0.1 at 2014-11-19 16:03:42 -0600
+
+
+Started GET "/assets/manager/employees.css?body=1" for 127.0.0.1 at 2014-11-19 16:03:42 -0600
+
+
+Started GET "/assets/tables.css?body=1" for 127.0.0.1 at 2014-11-19 16:03:42 -0600
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-11-19 16:03:42 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-19 16:03:42 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-19 16:03:42 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-19 16:03:42 -0600
+
+
+Started GET "/assets/manager/employees.js?body=1" for 127.0.0.1 at 2014-11-19 16:03:42 -0600
+
+
+Started GET "/assets/employees.js?body=1" for 127.0.0.1 at 2014-11-19 16:03:42 -0600
+
+
+Started GET "/assets/items.js?body=1" for 127.0.0.1 at 2014-11-19 16:03:42 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-19 16:03:42 -0600
+
+
+Started GET "/assets/soon_to_be_sess.js?body=1" for 127.0.0.1 at 2014-11-19 16:03:42 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-19 16:03:42 -0600
+
+
+Started GET "/assets/tables.js?body=1" for 127.0.0.1 at 2014-11-19 16:03:42 -0600
+
+
+Started GET "/assets/tickets.js?body=1" for 127.0.0.1 at 2014-11-19 16:03:42 -0600
+
+
+Started GET "/assets/manager/items.js?body=1" for 127.0.0.1 at 2014-11-19 16:03:42 -0600
+
+
+Started GET "/manager" for 127.0.0.1 at 2014-11-19 16:03:44 -0600
+Processing by Manager::BaseController#index as HTML
+  [1m[36mEmployee Load (0.1ms)[0m  [1mSELECT  "employees".* FROM "employees"  WHERE "employees"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered manager/base/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 82ms (Views: 81.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/manager" for 127.0.0.1 at 2014-11-19 16:03:50 -0600
+Processing by Manager::BaseController#index as HTML
+  [1m[35mEmployee Load (0.1ms)[0m  SELECT  "employees".* FROM "employees"  WHERE "employees"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered manager/base/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 132ms (Views: 128.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/employees.css?body=1" for 127.0.0.1 at 2014-11-19 16:03:51 -0600
+
+
+Started GET "/assets/items.css?body=1" for 127.0.0.1 at 2014-11-19 16:03:51 -0600
+
+
+Started GET "/assets/tables.css?body=1" for 127.0.0.1 at 2014-11-19 16:03:51 -0600
+
+
+Started GET "/assets/manager/employees.css?body=1" for 127.0.0.1 at 2014-11-19 16:03:51 -0600
+
+
+Started GET "/assets/manager/items.css?body=1" for 127.0.0.1 at 2014-11-19 16:03:51 -0600
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-11-19 16:03:51 -0600
+
+
+Started GET "/assets/tickets.css?body=1" for 127.0.0.1 at 2014-11-19 16:03:51 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-19 16:03:51 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-19 16:03:51 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-19 16:03:51 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-19 16:03:51 -0600
+
+
+Started GET "/assets/employees.js?body=1" for 127.0.0.1 at 2014-11-19 16:03:51 -0600
+
+
+Started GET "/assets/manager/employees.js?body=1" for 127.0.0.1 at 2014-11-19 16:03:51 -0600
+
+
+Started GET "/assets/items.js?body=1" for 127.0.0.1 at 2014-11-19 16:03:51 -0600
+
+
+Started GET "/assets/manager/items.js?body=1" for 127.0.0.1 at 2014-11-19 16:03:51 -0600
+
+
+Started GET "/assets/soon_to_be_sess.js?body=1" for 127.0.0.1 at 2014-11-19 16:03:51 -0600
+
+
+Started GET "/assets/tables.js?body=1" for 127.0.0.1 at 2014-11-19 16:03:51 -0600
+
+
+Started GET "/assets/tickets.js?body=1" for 127.0.0.1 at 2014-11-19 16:03:51 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-19 16:03:51 -0600
+
+
+Started GET "/manager" for 127.0.0.1 at 2014-11-19 16:03:57 -0600
+Processing by Manager::BaseController#index as HTML
+  [1m[36mEmployee Load (0.1ms)[0m  [1mSELECT  "employees".* FROM "employees"  WHERE "employees"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered manager/base/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 98ms (Views: 97.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/employees.css?body=1" for 127.0.0.1 at 2014-11-19 16:03:57 -0600
+
+
+Started GET "/assets/manager/employees.css?body=1" for 127.0.0.1 at 2014-11-19 16:03:57 -0600
+
+
+Started GET "/assets/items.css?body=1" for 127.0.0.1 at 2014-11-19 16:03:57 -0600
+
+
+Started GET "/assets/tables.css?body=1" for 127.0.0.1 at 2014-11-19 16:03:57 -0600
+
+
+Started GET "/assets/manager/items.css?body=1" for 127.0.0.1 at 2014-11-19 16:03:57 -0600
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-11-19 16:03:57 -0600
+
+
+Started GET "/assets/tickets.css?body=1" for 127.0.0.1 at 2014-11-19 16:03:57 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-19 16:03:57 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-19 16:03:57 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-19 16:03:57 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-19 16:03:57 -0600
+
+
+Started GET "/assets/items.js?body=1" for 127.0.0.1 at 2014-11-19 16:03:57 -0600
+
+
+Started GET "/assets/employees.js?body=1" for 127.0.0.1 at 2014-11-19 16:03:57 -0600
+
+
+Started GET "/assets/manager/items.js?body=1" for 127.0.0.1 at 2014-11-19 16:03:57 -0600
+
+
+Started GET "/assets/manager/employees.js?body=1" for 127.0.0.1 at 2014-11-19 16:03:57 -0600
+
+
+Started GET "/assets/soon_to_be_sess.js?body=1" for 127.0.0.1 at 2014-11-19 16:03:57 -0600
+
+
+Started GET "/assets/tables.js?body=1" for 127.0.0.1 at 2014-11-19 16:03:57 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-19 16:03:57 -0600
+
+
+Started GET "/assets/tickets.js?body=1" for 127.0.0.1 at 2014-11-19 16:03:57 -0600
+
+
+Started GET "/tables" for 127.0.0.1 at 2014-11-19 16:03:59 -0600
+Processing by TablesController#index as HTML
+  [1m[35mTable Load (0.1ms)[0m  SELECT "tables".* FROM "tables"
+  Rendered tables/index.html.erb within layouts/application (0.4ms)
+  [1m[36mEmployee Load (0.1ms)[0m  [1mSELECT  "employees".* FROM "employees"  WHERE "employees"."id" = ? LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 83ms (Views: 78.5ms | ActiveRecord: 0.2ms)
+
+
+Started DELETE "/signout" for 127.0.0.1 at 2014-11-19 16:04:02 -0600
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"5D7CQbWuYJOt4MMx+mQ+fu/Ju7P3yLORMD9FwHm3qLM="}
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-19 16:04:02 -0600
+Processing by TablesController#index as HTML
+  [1m[35mTable Load (0.1ms)[0m  SELECT "tables".* FROM "tables"
+  Rendered tables/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 79ms (Views: 78.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/employees.css?body=1" for 127.0.0.1 at 2014-11-19 16:04:03 -0600
+
+
+Started GET "/assets/items.css?body=1" for 127.0.0.1 at 2014-11-19 16:04:03 -0600
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-11-19 16:04:03 -0600
+
+
+Started GET "/assets/manager/employees.css?body=1" for 127.0.0.1 at 2014-11-19 16:04:03 -0600
+
+
+Started GET "/assets/tables.css?body=1" for 127.0.0.1 at 2014-11-19 16:04:03 -0600
+
+
+Started GET "/assets/manager/items.css?body=1" for 127.0.0.1 at 2014-11-19 16:04:03 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-19 16:04:03 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-19 16:04:03 -0600
+
+
+Started GET "/assets/tickets.css?body=1" for 127.0.0.1 at 2014-11-19 16:04:03 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-19 16:04:03 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-19 16:04:03 -0600
+
+
+Started GET "/assets/employees.js?body=1" for 127.0.0.1 at 2014-11-19 16:04:03 -0600
+
+
+Started GET "/assets/items.js?body=1" for 127.0.0.1 at 2014-11-19 16:04:03 -0600
+
+
+Started GET "/assets/manager/employees.js?body=1" for 127.0.0.1 at 2014-11-19 16:04:03 -0600
+
+
+Started GET "/assets/manager/items.js?body=1" for 127.0.0.1 at 2014-11-19 16:04:03 -0600
+
+
+Started GET "/assets/soon_to_be_sess.js?body=1" for 127.0.0.1 at 2014-11-19 16:04:03 -0600
+
+
+Started GET "/assets/tables.js?body=1" for 127.0.0.1 at 2014-11-19 16:04:03 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-19 16:04:03 -0600
+
+
+Started GET "/assets/tickets.js?body=1" for 127.0.0.1 at 2014-11-19 16:04:03 -0600
+
+
+Started GET "/signin" for 127.0.0.1 at 2014-11-19 16:04:05 -0600
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 79ms (Views: 78.7ms | ActiveRecord: 0.0ms)

@@ -13,3 +13,24 @@
  *= require_tree .
  *= require_self
  */
+
+body { 
+font-family: Georgia, "Times New Roman", Times, serif; 
+font-size: 14px; 
+color: #ffffff; 
+background-color: #000000; 
+text-align:center;
+margin-top: 1cm;
+} 
+
+a:link{
+color: #ffffff;
+text-decoration: underline;
+font-weight: bold;
+}
+
+a:visited{
+color: #ffffff;
+text-decoration: underline;
+font-weight: bold;
+}
