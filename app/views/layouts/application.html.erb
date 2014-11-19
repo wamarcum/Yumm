@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>
+    <% if content_for?(:title) %>
+      <%= yield(:title) %>
+    <% else %>
+      Yumm
+    <% end %>
+  </title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+<nav>
+  <% if current_employee %>
+    Logged in as: <%= current_employee.name %><br>
+    <%= link_to "Sign out", signout_path, method: :delete %>
+    <% managers_only do %>
+      <%= link_to "Manager Panel", manager_root_path %>
+    <% end %>
+  <% else %>
+      <%= link_to "Sign in", signin_path %>
+  <% end %>
+</nav>
+
+
+  <% flash.each do |key, val| %>
+    <div class='flash' id='<%= key %>'>
+      <%= val %>
+    </div>
+  <% end %>
+
+  <%= yield %>
+
+</body>
+</html>

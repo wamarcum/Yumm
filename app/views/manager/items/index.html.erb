@@ -1,0 +1,23 @@
+<h2>Manager Panel - Items</h2>
+
+<%= link_to "Add Item", new_manager_item_path %>
+
+<div id='categories'>
+  <% Category.all.each do |category|%>
+    <h3><%= category.name.capitalize.pluralize %></h3>
+    <table id="<%= category.name %>" style="width:100%">
+      <tr>
+        <th>Name</th>
+        <th>Cost</th>
+        <th>Quantity</th>
+      </tr>
+        <% category.items.each do |item| %>
+          <tr>
+            <td><%= item.name %></td>
+            <td><%= item.cost %></td>
+            <td><%= item.quantity %></td>
+          </tr>
+        <% end %>
+      </table>
+  <% end %>
+</div>
