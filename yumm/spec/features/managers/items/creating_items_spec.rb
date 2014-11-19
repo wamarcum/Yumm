@@ -12,8 +12,8 @@ feature "Items" do
 
   scenario "adding an Item" do
     click_link "Add Item"
-    select "Beverage", from: "Category"
-    fill_in "Name", with: "Pepsi"
+    select "Cookie", from: "Category"
+    fill_in "Name", with: "ChocolateChip"
     fill_in "Cost", with: "1.00"
     select "5", from: "Quantity"
     click_button "Add Item"

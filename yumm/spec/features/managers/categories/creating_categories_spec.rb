@@ -12,7 +12,7 @@ feature "Creating Categories" do
   scenario "Adding a Category" do
     click_link "Add Category"
     fill_in "Name", with: "Dessert"
-    click_button "Add Category"
+    click_button "Create Category"
     expect(page).to have_content("Category has been created.")
   end
 

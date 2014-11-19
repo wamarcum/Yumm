@@ -7,7 +7,7 @@ Rails.application.routes.draw do
 
   namespace :manager do
     root to: "base#index"
-    resources :employees, :items
+    resources :employees, :items, :categories
   end
 
   resources :employees

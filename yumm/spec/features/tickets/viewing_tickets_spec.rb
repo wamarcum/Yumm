@@ -10,7 +10,7 @@ feature 'Viewing Tickets' do
   scenario "Viewing Tickets for a given Table" do
     click_link table.number
     expect(page).to have_content("Tickets")
-    expect(page).to have_content ticket.title
+    expect(page).to have_content ticket.id
   end
 end
 
